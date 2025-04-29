@@ -1,0 +1,137 @@
+Running SLURM prolog script on pink53.cluster.local
+===============================================================================
+Job started on Sat Apr 12 10:43:16 BST 2025
+Job ID          : 7287338
+Job name        : ESC50_Step3_Supervised
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step3.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 8
+Num of tasks    : 1
+Hosts allocated : pink53
+Job Output Follows ...
+===============================================================================
+Loaded self-supervised weights from /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/selfsupervised_esc50/saltpepper_005/rotnet_esc50_saltpepper_005.pth
+Epoch [1/100] - Loss: 3.3498
+Epoch [2/100] - Loss: 2.7640
+Epoch [3/100] - Loss: 2.2841
+Epoch [4/100] - Loss: 1.9039
+Epoch [5/100] - Loss: 1.7009
+Epoch [6/100] - Loss: 1.4189
+Epoch [7/100] - Loss: 1.3041
+Epoch [8/100] - Loss: 1.2006
+Epoch [9/100] - Loss: 1.0655
+Epoch [10/100] - Loss: 0.9378
+Epoch [11/100] - Loss: 0.8751
+Epoch [12/100] - Loss: 0.8182
+Epoch [13/100] - Loss: 0.6905
+Epoch [14/100] - Loss: 0.6703
+Epoch [15/100] - Loss: 0.6839
+Epoch [16/100] - Loss: 0.5332
+Epoch [17/100] - Loss: 0.4513
+Epoch [18/100] - Loss: 0.4006
+Epoch [19/100] - Loss: 0.3614
+Epoch [20/100] - Loss: 0.4250
+Epoch [21/100] - Loss: 0.3384
+Epoch [22/100] - Loss: 0.2548
+Epoch [23/100] - Loss: 0.2732
+Epoch [24/100] - Loss: 0.3737
+Epoch [25/100] - Loss: 0.2330
+Epoch [26/100] - Loss: 0.1805
+Epoch [27/100] - Loss: 0.1572
+Epoch [28/100] - Loss: 0.1216
+Epoch [29/100] - Loss: 0.1292
+Epoch [30/100] - Loss: 0.1077
+Epoch [31/100] - Loss: 0.0687
+Epoch [32/100] - Loss: 0.0410
+Epoch [33/100] - Loss: 0.0320
+Epoch [34/100] - Loss: 0.0267
+Epoch [35/100] - Loss: 0.0312
+Epoch [36/100] - Loss: 0.0375
+Epoch [37/100] - Loss: 0.0246
+Epoch [38/100] - Loss: 0.0209
+Epoch [39/100] - Loss: 0.0196
+Epoch [40/100] - Loss: 0.0204
+Epoch [41/100] - Loss: 0.0196
+Epoch [42/100] - Loss: 0.0179
+Epoch [43/100] - Loss: 0.0170
+Epoch [44/100] - Loss: 0.0207
+Epoch [45/100] - Loss: 0.0198
+Epoch [46/100] - Loss: 0.0150
+Epoch [47/100] - Loss: 0.0132
+Epoch [48/100] - Loss: 0.0121
+Epoch [49/100] - Loss: 0.0116
+Epoch [50/100] - Loss: 0.0105
+Epoch [51/100] - Loss: 0.0097
+Epoch [52/100] - Loss: 0.0101
+Epoch [53/100] - Loss: 0.0106
+Epoch [54/100] - Loss: 0.0101
+Epoch [55/100] - Loss: 0.0095
+Epoch [56/100] - Loss: 0.0083
+Epoch [57/100] - Loss: 0.0082
+Epoch [58/100] - Loss: 0.0096
+Epoch [59/100] - Loss: 0.0104
+Epoch [60/100] - Loss: 0.0126
+Epoch [61/100] - Loss: 0.0129
+Epoch [62/100] - Loss: 0.0144
+Epoch [63/100] - Loss: 0.0080
+Epoch [64/100] - Loss: 0.0075
+Epoch [65/100] - Loss: 0.0073
+Epoch [66/100] - Loss: 0.0083
+Epoch [67/100] - Loss: 0.0076
+Epoch [68/100] - Loss: 0.0078
+Epoch [69/100] - Loss: 0.0076
+Epoch [70/100] - Loss: 0.0075
+Epoch [71/100] - Loss: 0.0084
+Epoch [72/100] - Loss: 0.0071
+Epoch [73/100] - Loss: 0.0070
+Epoch [74/100] - Loss: 0.0090
+Epoch [75/100] - Loss: 0.0078
+Epoch [76/100] - Loss: 0.0089
+Epoch [77/100] - Loss: 0.0082
+Epoch [78/100] - Loss: 0.0096
+Epoch [79/100] - Loss: 0.0085
+Epoch [80/100] - Loss: 0.0071
+Epoch [81/100] - Loss: 0.0066
+Epoch [82/100] - Loss: 0.0068
+Epoch [83/100] - Loss: 0.0066
+Epoch [84/100] - Loss: 0.0062
+Epoch [85/100] - Loss: 0.0055
+Epoch [86/100] - Loss: 0.0084
+Epoch [87/100] - Loss: 0.0112
+Epoch [88/100] - Loss: 0.0068
+Epoch [89/100] - Loss: 0.0063
+Epoch [90/100] - Loss: 0.0061
+Epoch [91/100] - Loss: 0.0059
+Epoch [92/100] - Loss: 0.0057
+Epoch [93/100] - Loss: 0.0056
+Epoch [94/100] - Loss: 0.0051
+Epoch [95/100] - Loss: 0.0050
+Epoch [96/100] - Loss: 0.0056
+Epoch [97/100] - Loss: 0.0051
+Epoch [98/100] - Loss: 0.0055
+Epoch [99/100] - Loss: 0.0054
+Epoch [100/100] - Loss: 0.0061
+Supervised model saved to /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/supervised_learning/resnet_esc50_sup_saltpepper_005.pth
+==============================================================================
+Running epilogue script on pink53.
+
+Submit time  : 2025-04-12T10:17:11
+Start time   : 2025-04-12T10:43:16
+End time     : 2025-04-12T11:09:13
+Elapsed time : 00:25:57 (Timelimit=18:00:00)
+
+Job ID: 7287338
+Array Job ID: 7287281_5
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:35:49
+CPU Efficiency: 17.25% of 03:27:36 core-walltime
+Job Wall-clock time: 00:25:57
+Memory Utilized: 7.94 GB
+Memory Efficiency: 0.00% of 16.00 B
+

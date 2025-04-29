@@ -1,0 +1,136 @@
+Running SLURM prolog script on pink53.cluster.local
+===============================================================================
+Job started on Fri Apr 11 14:14:39 BST 2025
+Job ID          : 7284148
+Job name        : ESC50_Step2_SSL
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step2.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 8
+Num of tasks    : 1
+Hosts allocated : pink53
+Job Output Follows ...
+===============================================================================
+Epoch 1: Loss = 2.2251
+Epoch 2: Loss = 1.3049
+Epoch 3: Loss = 1.1875
+Epoch 4: Loss = 0.8679
+Epoch 5: Loss = 0.5720
+Epoch 6: Loss = 0.4252
+Epoch 7: Loss = 0.3494
+Epoch 8: Loss = 0.2523
+Epoch 9: Loss = 0.2091
+Epoch 10: Loss = 0.1610
+Epoch 11: Loss = 0.1558
+Epoch 12: Loss = 0.1698
+Epoch 13: Loss = 0.1621
+Epoch 14: Loss = 0.1251
+Epoch 15: Loss = 0.0951
+Epoch 16: Loss = 0.1122
+Epoch 17: Loss = 0.0913
+Epoch 18: Loss = 0.0875
+Epoch 19: Loss = 0.0693
+Epoch 20: Loss = 0.0852
+Epoch 21: Loss = 0.0685
+Epoch 22: Loss = 0.0622
+Epoch 23: Loss = 0.0674
+Epoch 24: Loss = 0.0641
+Epoch 25: Loss = 0.0575
+Epoch 26: Loss = 0.0662
+Epoch 27: Loss = 0.0613
+Epoch 28: Loss = 0.0477
+Epoch 29: Loss = 0.0407
+Epoch 30: Loss = 0.0404
+Epoch 31: Loss = 0.0238
+Epoch 32: Loss = 0.0166
+Epoch 33: Loss = 0.0193
+Epoch 34: Loss = 0.0145
+Epoch 35: Loss = 0.0176
+Epoch 36: Loss = 0.0125
+Epoch 37: Loss = 0.0146
+Epoch 38: Loss = 0.0151
+Epoch 39: Loss = 0.0129
+Epoch 40: Loss = 0.0259
+Epoch 41: Loss = 0.0192
+Epoch 42: Loss = 0.0093
+Epoch 43: Loss = 0.0109
+Epoch 44: Loss = 0.0139
+Epoch 45: Loss = 0.0154
+Epoch 46: Loss = 0.0114
+Epoch 47: Loss = 0.0089
+Epoch 48: Loss = 0.0057
+Epoch 49: Loss = 0.0086
+Epoch 50: Loss = 0.0084
+Epoch 51: Loss = 0.0185
+Epoch 52: Loss = 0.0122
+Epoch 53: Loss = 0.0231
+Epoch 54: Loss = 0.0142
+Epoch 55: Loss = 0.0070
+Epoch 56: Loss = 0.0089
+Epoch 57: Loss = 0.0042
+Epoch 58: Loss = 0.0077
+Epoch 59: Loss = 0.0052
+Epoch 60: Loss = 0.0058
+Epoch 61: Loss = 0.0038
+Epoch 62: Loss = 0.0030
+Epoch 63: Loss = 0.0023
+Epoch 64: Loss = 0.0020
+Epoch 65: Loss = 0.0016
+Epoch 66: Loss = 0.0013
+Epoch 67: Loss = 0.0011
+Epoch 68: Loss = 0.0015
+Epoch 69: Loss = 0.0012
+Epoch 70: Loss = 0.0019
+Epoch 71: Loss = 0.0015
+Epoch 72: Loss = 0.0016
+Epoch 73: Loss = 0.0012
+Epoch 74: Loss = 0.0009
+Epoch 75: Loss = 0.0016
+Epoch 76: Loss = 0.0010
+Epoch 77: Loss = 0.0010
+Epoch 78: Loss = 0.0014
+Epoch 79: Loss = 0.0009
+Epoch 80: Loss = 0.0010
+Epoch 81: Loss = 0.0009
+Epoch 82: Loss = 0.0008
+Epoch 83: Loss = 0.0012
+Epoch 84: Loss = 0.0010
+Epoch 85: Loss = 0.0008
+Epoch 86: Loss = 0.0008
+Epoch 87: Loss = 0.0009
+Epoch 88: Loss = 0.0009
+Epoch 89: Loss = 0.0012
+Epoch 90: Loss = 0.0015
+Epoch 91: Loss = 0.0015
+Epoch 92: Loss = 0.0008
+Epoch 93: Loss = 0.0008
+Epoch 94: Loss = 0.0007
+Epoch 95: Loss = 0.0008
+Epoch 96: Loss = 0.0006
+Epoch 97: Loss = 0.0006
+Epoch 98: Loss = 0.0007
+Epoch 99: Loss = 0.0007
+Epoch 100: Loss = 0.0006
+Model saved.
+==============================================================================
+Running epilogue script on pink53.
+
+Submit time  : 2025-04-11T14:14:38
+Start time   : 2025-04-11T14:14:38
+End time     : 2025-04-11T16:33:28
+Elapsed time : 02:18:50 (Timelimit=12:00:00)
+
+Job ID: 7284148
+Array Job ID: 7284146_0
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 03:29:22
+CPU Efficiency: 18.85% of 18:30:40 core-walltime
+Job Wall-clock time: 02:18:50
+Memory Utilized: 1.68 GB
+Memory Efficiency: 0.00% of 16.00 B
+

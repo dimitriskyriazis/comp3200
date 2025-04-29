@@ -1,0 +1,1837 @@
+Running SLURM prolog script on pink51.cluster.local
+===============================================================================
+Job started on Sat Apr 12 19:07:36 BST 2025
+Job ID          : 7289027
+Job name        : ESC50_Step4_Joint
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step4.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 8
+Num of tasks    : 1
+Hosts allocated : pink51
+Job Output Follows ...
+===============================================================================
+Loaded warmup weights from /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/supervised_learning/resnet_esc50_sup_saltpepper_005.pth (excluding heads)
+[Epoch 1] Rampup: 0.0674
+[Batch 0] CE: 3.7065, Cont: 4.8442, MSE: 0.0017, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 2.0275, Cont: 5.2933, MSE: 0.0072, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 2.9816, Cont: 4.8442, MSE: 0.0109, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 1.2489, Cont: 4.2626, MSE: 0.0166, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 1.5199, Cont: 4.5747, MSE: 0.0217, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 1.1289, Cont: 5.4848, MSE: 0.0173, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 1.2156, Cont: 4.2626, MSE: 0.0247, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 2.8300, Cont: 4.5747, MSE: 0.0203, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 2.0777, Cont: 3.8918, MSE: 0.0188, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 1.9283, Cont: 4.8442, MSE: 0.0166, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 3.6802, Cont: 4.2626, MSE: 0.0163, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 2.8636, Cont: 4.8442, MSE: 0.0136, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 2.2544, Cont: 5.4848, MSE: 0.0150, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 3.2429, Cont: 4.5747, MSE: 0.0223, mask_lb: 9, mask_ulb: 7
+[Epoch 1] Avg Loss: 7.0932
+[HEAD1] ACC: 0.3610, NMI: 0.3252, ARI: 0.0803
+[HEAD2] ACC: 0.2155, NMI: 0.1686, ARI: 0.0031
+[Epoch 2] Rampup: 0.0763
+[Batch 0] CE: 2.9605, Cont: 5.2933, MSE: 0.0158, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 3.3065, Cont: 5.0814, MSE: 0.0075, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 3.4101, Cont: 3.4340, MSE: 0.0006, mask_lb: 12, mask_ulb: 4
+[Batch 30] CE: 3.5224, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 2.9337, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 3.2457, Cont: 4.5747, MSE: 0.0020, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 3.0642, Cont: 5.2933, MSE: 0.0007, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 2.8718, Cont: 4.5747, MSE: 0.0018, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 2.3918, Cont: 4.5747, MSE: 0.0033, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 3.4909, Cont: 5.0814, MSE: 0.0068, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 2.6194, Cont: 5.2933, MSE: 0.0015, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 2.7598, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 1.7410, Cont: 5.0814, MSE: 0.0052, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 3.3499, Cont: 4.8442, MSE: 0.0055, mask_lb: 8, mask_ulb: 8
+[Epoch 2] Avg Loss: 7.7860
+[HEAD1] ACC: 0.2485, NMI: 0.2512, ARI: 0.0167
+[HEAD2] ACC: 0.2715, NMI: 0.1534, ARI: 0.0094
+[Epoch 3] Rampup: 0.0862
+[Batch 0] CE: 1.7551, Cont: 5.6595, MSE: 0.0069, mask_lb: 4, mask_ulb: 12
+[Batch 10] CE: 2.6036, Cont: 5.2933, MSE: 0.0048, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 2.5210, Cont: 4.8442, MSE: 0.0054, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 1.8158, Cont: 4.5747, MSE: 0.0043, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 2.6622, Cont: 5.2933, MSE: 0.0032, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 2.3734, Cont: 5.0814, MSE: 0.0062, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 1.8307, Cont: 5.0814, MSE: 0.0064, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 2.3100, Cont: 3.8917, MSE: 0.0065, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 1.3704, Cont: 4.8442, MSE: 0.0106, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 1.9813, Cont: 4.8442, MSE: 0.0104, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 1.8620, Cont: 4.8442, MSE: 0.0054, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 1.7962, Cont: 5.0814, MSE: 0.0079, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 2.1772, Cont: 4.5747, MSE: 0.0070, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 2.0270, Cont: 3.8918, MSE: 0.0097, mask_lb: 11, mask_ulb: 5
+[Epoch 3] Avg Loss: 6.9590
+[HEAD1] ACC: 0.2950, NMI: 0.3376, ARI: 0.0488
+[HEAD2] ACC: 0.3540, NMI: 0.2024, ARI: 0.0823
+[Epoch 4] Rampup: 0.0973
+[Batch 0] CE: 1.8751, Cont: 5.2933, MSE: 0.0052, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 1.7307, Cont: 4.5747, MSE: 0.0052, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 2.8184, Cont: 3.4338, MSE: 0.0124, mask_lb: 12, mask_ulb: 4
+[Batch 30] CE: 1.8593, Cont: 4.8442, MSE: 0.0083, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 1.8686, Cont: 4.8442, MSE: 0.0068, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 1.2422, Cont: 5.0814, MSE: 0.0102, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 1.3806, Cont: 4.5747, MSE: 0.0102, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 1.6347, Cont: 5.2933, MSE: 0.0057, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 1.6626, Cont: 2.8330, MSE: 0.0165, mask_lb: 13, mask_ulb: 3
+[Batch 90] CE: 1.8596, Cont: 4.8442, MSE: 0.0170, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 1.7859, Cont: 3.4339, MSE: 0.0179, mask_lb: 12, mask_ulb: 4
+[Batch 110] CE: 1.5682, Cont: 5.2933, MSE: 0.0107, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 1.6772, Cont: 4.2626, MSE: 0.0061, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 1.8192, Cont: 4.5747, MSE: 0.0142, mask_lb: 9, mask_ulb: 7
+[Epoch 4] Avg Loss: 6.5260
+[HEAD1] ACC: 0.3570, NMI: 0.3876, ARI: 0.0492
+[HEAD2] ACC: 0.3150, NMI: 0.1755, ARI: -0.0071
+[Epoch 5] Rampup: 0.1097
+[Batch 0] CE: 0.9949, Cont: 4.2626, MSE: 0.0132, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 1.2820, Cont: 4.5747, MSE: 0.0087, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 1.9635, Cont: 1.9455, MSE: 0.0131, mask_lb: 14, mask_ulb: 2
+[Batch 30] CE: 1.7771, Cont: 4.5747, MSE: 0.0126, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 1.3486, Cont: 4.5747, MSE: 0.0111, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 2.6218, Cont: 5.0814, MSE: 0.0115, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 1.8056, Cont: 5.2933, MSE: 0.0064, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 1.8613, Cont: 5.4848, MSE: 0.0111, mask_lb: 5, mask_ulb: 11
+[Batch 80] CE: 0.8585, Cont: 4.2626, MSE: 0.0145, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.3318, Cont: 5.4848, MSE: 0.0128, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.9711, Cont: 4.5747, MSE: 0.0128, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 2.1262, Cont: 3.8918, MSE: 0.0085, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 2.4515, Cont: 5.4848, MSE: 0.0131, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 1.4815, Cont: 5.2933, MSE: 0.0120, mask_lb: 6, mask_ulb: 10
+[Epoch 5] Avg Loss: 6.3409
+[HEAD1] ACC: 0.3735, NMI: 0.4094, ARI: 0.0659
+[HEAD2] ACC: 0.2375, NMI: 0.2135, ARI: 0.0316
+[Epoch 6] Rampup: 0.1234
+[Batch 0] CE: 1.4446, Cont: 4.2626, MSE: 0.0136, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.8436, Cont: 5.6595, MSE: 0.0206, mask_lb: 4, mask_ulb: 12
+[Batch 20] CE: 1.1632, Cont: 4.5747, MSE: 0.0168, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 1.0014, Cont: 5.0814, MSE: 0.0136, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.7083, Cont: 5.2933, MSE: 0.0122, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 1.1496, Cont: 3.8917, MSE: 0.0134, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 1.8027, Cont: 2.8329, MSE: 0.0175, mask_lb: 13, mask_ulb: 3
+[Batch 70] CE: 1.7381, Cont: 2.8330, MSE: 0.0153, mask_lb: 13, mask_ulb: 3
+[Batch 80] CE: 1.7260, Cont: 3.8917, MSE: 0.0101, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 1.4141, Cont: 3.4338, MSE: 0.0146, mask_lb: 12, mask_ulb: 4
+[Batch 100] CE: 1.0414, Cont: 3.8917, MSE: 0.0159, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.4415, Cont: 4.8441, MSE: 0.0183, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 1.4196, Cont: 2.8330, MSE: 0.0161, mask_lb: 13, mask_ulb: 3
+[Batch 124] CE: 0.2323, Cont: 5.4848, MSE: 0.0193, mask_lb: 5, mask_ulb: 11
+[Epoch 6] Avg Loss: 6.0721
+[HEAD1] ACC: 0.4255, NMI: 0.4204, ARI: 0.0742
+[HEAD2] ACC: 0.3045, NMI: 0.2311, ARI: 0.0661
+[Epoch 7] Rampup: 0.1387
+[Batch 0] CE: 0.6660, Cont: 5.2933, MSE: 0.0167, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 1.4284, Cont: 3.4338, MSE: 0.0197, mask_lb: 12, mask_ulb: 4
+[Batch 20] CE: 1.4782, Cont: 4.2626, MSE: 0.0183, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 1.2822, Cont: 3.8917, MSE: 0.0134, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 1.0358, Cont: 4.8442, MSE: 0.0108, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 2.9090, Cont: 5.4848, MSE: 0.0081, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 0.8583, Cont: 4.8442, MSE: 0.0180, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 1.4559, Cont: 4.2626, MSE: 0.0158, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 1.6815, Cont: 4.2626, MSE: 0.0121, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 1.0872, Cont: 5.2933, MSE: 0.0124, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 1.2276, Cont: 5.2933, MSE: 0.0145, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.3096, Cont: 5.8201, MSE: 0.0138, mask_lb: 3, mask_ulb: 13
+[Batch 120] CE: 1.7695, Cont: 4.2626, MSE: 0.0163, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 1.6963, Cont: 3.8917, MSE: 0.0170, mask_lb: 11, mask_ulb: 5
+[Epoch 7] Avg Loss: 6.1157
+[HEAD1] ACC: 0.4140, NMI: 0.3884, ARI: 0.1005
+[HEAD2] ACC: 0.2365, NMI: 0.2079, ARI: 0.0462
+[Epoch 8] Rampup: 0.1556
+[Batch 0] CE: 1.6496, Cont: 4.2626, MSE: 0.0193, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.9721, Cont: 5.0814, MSE: 0.0114, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 2.4111, Cont: 4.8442, MSE: 0.0165, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 1.4803, Cont: 4.2626, MSE: 0.0103, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.9121, Cont: 4.2626, MSE: 0.0149, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 1.0823, Cont: 4.8442, MSE: 0.0114, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 1.2407, Cont: 5.2933, MSE: 0.0125, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 1.1002, Cont: 4.8442, MSE: 0.0102, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.7144, Cont: 4.8442, MSE: 0.0187, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 1.4573, Cont: 5.0814, MSE: 0.0159, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.5621, Cont: 3.8917, MSE: 0.0238, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.6239, Cont: 5.4848, MSE: 0.0151, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 1.8801, Cont: 5.2933, MSE: 0.0193, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.9245, Cont: 4.2626, MSE: 0.0136, mask_lb: 10, mask_ulb: 6
+[Epoch 8] Avg Loss: 6.0752
+[HEAD1] ACC: 0.4165, NMI: 0.4433, ARI: 0.0798
+[HEAD2] ACC: 0.2145, NMI: 0.2004, ARI: 0.0101
+[Epoch 9] Rampup: 0.1742
+[Batch 0] CE: 1.7177, Cont: 4.8441, MSE: 0.0110, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 1.1271, Cont: 5.0814, MSE: 0.0152, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 1.2694, Cont: 5.0814, MSE: 0.0149, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.6911, Cont: 4.5747, MSE: 0.0159, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 1.3205, Cont: 3.8917, MSE: 0.0182, mask_lb: 11, mask_ulb: 5
+[Batch 50] CE: 0.8884, Cont: 3.8917, MSE: 0.0179, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.6512, Cont: 3.8917, MSE: 0.0186, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 1.2850, Cont: 5.2933, MSE: 0.0202, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.4349, Cont: 4.2626, MSE: 0.0207, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.4826, Cont: 5.2933, MSE: 0.0137, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.4342, Cont: 4.2626, MSE: 0.0176, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.4950, Cont: 5.0814, MSE: 0.0150, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 1.4921, Cont: 4.8441, MSE: 0.0206, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.3248, Cont: 5.0814, MSE: 0.0202, mask_lb: 7, mask_ulb: 9
+[Epoch 9] Avg Loss: 5.7842
+[HEAD1] ACC: 0.4475, NMI: 0.4705, ARI: 0.0870
+[HEAD2] ACC: 0.2290, NMI: 0.2442, ARI: 0.0283
+[Epoch 10] Rampup: 0.1948
+[Batch 0] CE: 0.2945, Cont: 5.0814, MSE: 0.0218, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.8447, Cont: 5.2933, MSE: 0.0141, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.5655, Cont: 4.8441, MSE: 0.0266, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.7372, Cont: 4.8442, MSE: 0.0149, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.1864, Cont: 5.2933, MSE: 0.0231, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.6864, Cont: 5.0814, MSE: 0.0164, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 1.2386, Cont: 5.0814, MSE: 0.0167, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.6669, Cont: 4.8441, MSE: 0.0150, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.6047, Cont: 4.5746, MSE: 0.0208, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 1.0324, Cont: 4.5747, MSE: 0.0139, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 1.6066, Cont: 5.2933, MSE: 0.0146, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 1.5007, Cont: 4.5747, MSE: 0.0172, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.8990, Cont: 4.8441, MSE: 0.0172, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 1.8336, Cont: 5.0814, MSE: 0.0224, mask_lb: 7, mask_ulb: 9
+[Epoch 10] Avg Loss: 5.7776
+[HEAD1] ACC: 0.4270, NMI: 0.4219, ARI: 0.0870
+[HEAD2] ACC: 0.2740, NMI: 0.2143, ARI: 0.0165
+[Epoch 11] Rampup: 0.2175
+[Batch 0] CE: 0.8396, Cont: 4.5747, MSE: 0.0221, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.8829, Cont: 4.5747, MSE: 0.0175, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 1.3071, Cont: 4.5747, MSE: 0.0161, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.9482, Cont: 4.2626, MSE: 0.0182, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.8483, Cont: 5.0814, MSE: 0.0179, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.6126, Cont: 3.8917, MSE: 0.0213, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 1.5051, Cont: 4.5747, MSE: 0.0148, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 1.7302, Cont: 4.5747, MSE: 0.0104, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 2.5265, Cont: 4.5746, MSE: 0.0131, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.9972, Cont: 5.0814, MSE: 0.0166, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.5390, Cont: 4.2626, MSE: 0.0196, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 1.6230, Cont: 3.8917, MSE: 0.0132, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.9745, Cont: 4.8441, MSE: 0.0151, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.7839, Cont: 4.8442, MSE: 0.0182, mask_lb: 8, mask_ulb: 8
+[Epoch 11] Avg Loss: 5.9510
+[HEAD1] ACC: 0.4790, NMI: 0.4889, ARI: 0.1035
+[HEAD2] ACC: 0.2910, NMI: 0.2619, ARI: 0.0713
+[Epoch 12] Rampup: 0.2425
+[Batch 0] CE: 1.1929, Cont: 4.8441, MSE: 0.0230, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.4672, Cont: 4.5747, MSE: 0.0198, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.6907, Cont: 4.2626, MSE: 0.0205, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.8247, Cont: 5.0814, MSE: 0.0203, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.4207, Cont: 5.0814, MSE: 0.0286, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.5082, Cont: 5.2933, MSE: 0.0203, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.8589, Cont: 5.2933, MSE: 0.0196, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.6387, Cont: 5.4848, MSE: 0.0169, mask_lb: 5, mask_ulb: 11
+[Batch 80] CE: 0.3299, Cont: 4.2626, MSE: 0.0285, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.2844, Cont: 3.8917, MSE: 0.0220, mask_lb: 11, mask_ulb: 5
+[Batch 100] CE: 0.1763, Cont: 2.8329, MSE: 0.0267, mask_lb: 13, mask_ulb: 3
+[Batch 110] CE: 0.6596, Cont: 5.0814, MSE: 0.0187, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.5549, Cont: 4.2626, MSE: 0.0221, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.4290, Cont: 4.5746, MSE: 0.0249, mask_lb: 9, mask_ulb: 7
+[Epoch 12] Avg Loss: 5.4730
+[HEAD1] ACC: 0.4440, NMI: 0.4935, ARI: 0.0680
+[HEAD2] ACC: 0.2505, NMI: 0.2789, ARI: 0.0540
+[Epoch 13] Rampup: 0.2698
+[Batch 0] CE: 0.3371, Cont: 4.5747, MSE: 0.0231, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.3124, Cont: 5.2933, MSE: 0.0222, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.2059, Cont: 4.2626, MSE: 0.0250, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 1.4531, Cont: 4.8442, MSE: 0.0256, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.2040, Cont: 5.0814, MSE: 0.0264, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.4365, Cont: 2.8329, MSE: 0.0230, mask_lb: 13, mask_ulb: 3
+[Batch 60] CE: 0.3330, Cont: 4.5747, MSE: 0.0291, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.8572, Cont: 5.0814, MSE: 0.0249, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.9227, Cont: 4.5746, MSE: 0.0166, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.1796, Cont: 5.6595, MSE: 0.0177, mask_lb: 4, mask_ulb: 12
+[Batch 100] CE: 0.3196, Cont: 5.0814, MSE: 0.0176, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 1.0908, Cont: 4.8441, MSE: 0.0152, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.9810, Cont: 3.8917, MSE: 0.0242, mask_lb: 11, mask_ulb: 5
+[Batch 124] CE: 0.2043, Cont: 5.2933, MSE: 0.0192, mask_lb: 6, mask_ulb: 10
+[Epoch 13] Avg Loss: 5.4378
+[HEAD1] ACC: 0.4595, NMI: 0.4860, ARI: 0.0919
+[HEAD2] ACC: 0.2015, NMI: 0.2462, ARI: 0.0336
+[Epoch 14] Rampup: 0.2999
+[Batch 0] CE: 0.3570, Cont: 5.6595, MSE: 0.0182, mask_lb: 4, mask_ulb: 12
+[Batch 10] CE: 0.9107, Cont: 4.8441, MSE: 0.0178, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 1.0027, Cont: 4.8441, MSE: 0.0211, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.3681, Cont: 4.8441, MSE: 0.0219, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.5455, Cont: 5.4848, MSE: 0.0226, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.8576, Cont: 5.2933, MSE: 0.0170, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.2762, Cont: 4.8441, MSE: 0.0254, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 1.6253, Cont: 4.2626, MSE: 0.0204, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.7787, Cont: 4.2626, MSE: 0.0174, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.6413, Cont: 4.8441, MSE: 0.0212, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.6820, Cont: 4.8441, MSE: 0.0209, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.3545, Cont: 4.5747, MSE: 0.0201, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.6274, Cont: 4.5747, MSE: 0.0240, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.3232, Cont: 4.2626, MSE: 0.0256, mask_lb: 10, mask_ulb: 6
+[Epoch 14] Avg Loss: 5.4784
+[HEAD1] ACC: 0.4775, NMI: 0.5220, ARI: 0.0781
+[HEAD2] ACC: 0.2185, NMI: 0.2706, ARI: 0.0350
+[Epoch 15] Rampup: 0.3327
+[Batch 0] CE: 1.0018, Cont: 4.5746, MSE: 0.0211, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.1403, Cont: 4.5747, MSE: 0.0208, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.3810, Cont: 5.2933, MSE: 0.0212, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0685, Cont: 4.8441, MSE: 0.0282, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0740, Cont: 5.0814, MSE: 0.0254, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.6506, Cont: 5.4848, MSE: 0.0139, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 0.0331, Cont: 4.8441, MSE: 0.0275, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.7204, Cont: 4.2626, MSE: 0.0248, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.5906, Cont: 4.8442, MSE: 0.0241, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.2444, Cont: 5.0814, MSE: 0.0245, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.5518, Cont: 4.8442, MSE: 0.0201, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.9738, Cont: 4.8442, MSE: 0.0156, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.6347, Cont: 4.5747, MSE: 0.0232, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0391, Cont: 5.4848, MSE: 0.0266, mask_lb: 5, mask_ulb: 11
+[Epoch 15] Avg Loss: 5.3594
+[HEAD1] ACC: 0.4755, NMI: 0.5140, ARI: 0.0846
+[HEAD2] ACC: 0.3265, NMI: 0.2492, ARI: 0.0751
+[Epoch 16] Rampup: 0.3685
+[Batch 0] CE: 0.5548, Cont: 3.8917, MSE: 0.0235, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0315, Cont: 5.2933, MSE: 0.0253, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.2523, Cont: 4.2626, MSE: 0.0245, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.6446, Cont: 3.8917, MSE: 0.0265, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 0.7060, Cont: 4.5747, MSE: 0.0227, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.7586, Cont: 5.0814, MSE: 0.0209, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.3054, Cont: 3.8917, MSE: 0.0273, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.5022, Cont: 3.8917, MSE: 0.0236, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.2947, Cont: 3.8917, MSE: 0.0244, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 0.0614, Cont: 4.2626, MSE: 0.0284, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.4921, Cont: 5.4848, MSE: 0.0243, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.8970, Cont: 4.2626, MSE: 0.0230, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.2676, Cont: 5.2933, MSE: 0.0226, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.5576, Cont: 4.5747, MSE: 0.0181, mask_lb: 9, mask_ulb: 7
+[Epoch 16] Avg Loss: 5.2957
+[HEAD1] ACC: 0.4455, NMI: 0.4720, ARI: 0.0829
+[HEAD2] ACC: 0.2170, NMI: 0.2601, ARI: 0.0197
+[Epoch 17] Rampup: 0.4076
+[Batch 0] CE: 1.3455, Cont: 5.0814, MSE: 0.0209, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.6218, Cont: 4.2626, MSE: 0.0228, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.2226, Cont: 5.4848, MSE: 0.0198, mask_lb: 5, mask_ulb: 11
+[Batch 30] CE: 0.3196, Cont: 5.0814, MSE: 0.0278, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.2073, Cont: 5.2933, MSE: 0.0252, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.4336, Cont: 4.8441, MSE: 0.0173, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.2116, Cont: 5.0814, MSE: 0.0268, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0985, Cont: 5.0814, MSE: 0.0249, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.2895, Cont: 5.6595, MSE: 0.0235, mask_lb: 4, mask_ulb: 12
+[Batch 90] CE: 0.1480, Cont: 4.5747, MSE: 0.0247, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0913, Cont: 5.4848, MSE: 0.0190, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.1101, Cont: 5.0814, MSE: 0.0233, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.2647, Cont: 3.8917, MSE: 0.0244, mask_lb: 11, mask_ulb: 5
+[Batch 124] CE: 0.0367, Cont: 5.2933, MSE: 0.0226, mask_lb: 6, mask_ulb: 10
+[Epoch 17] Avg Loss: 5.2367
+[HEAD1] ACC: 0.5235, NMI: 0.5700, ARI: 0.0982
+[HEAD2] ACC: 0.2755, NMI: 0.3099, ARI: 0.0557
+[Epoch 18] Rampup: 0.4501
+[Batch 0] CE: 0.1206, Cont: 5.2933, MSE: 0.0188, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.4407, Cont: 5.2933, MSE: 0.0212, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.3961, Cont: 2.8330, MSE: 0.0291, mask_lb: 13, mask_ulb: 3
+[Batch 30] CE: 0.0351, Cont: 5.4848, MSE: 0.0280, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.1660, Cont: 3.4339, MSE: 0.0285, mask_lb: 12, mask_ulb: 4
+[Batch 50] CE: 0.5072, Cont: 4.2626, MSE: 0.0246, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.3713, Cont: 4.5747, MSE: 0.0200, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.7697, Cont: 4.8442, MSE: 0.0176, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.7224, Cont: 3.8918, MSE: 0.0272, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 0.0394, Cont: 5.0814, MSE: 0.0222, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0374, Cont: 5.2933, MSE: 0.0223, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.2171, Cont: 4.5747, MSE: 0.0215, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0584, Cont: 4.2626, MSE: 0.0247, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.3367, Cont: 4.8442, MSE: 0.0214, mask_lb: 8, mask_ulb: 8
+[Epoch 18] Avg Loss: 5.2053
+[HEAD1] ACC: 0.5110, NMI: 0.5601, ARI: 0.0872
+[HEAD2] ACC: 0.2590, NMI: 0.3104, ARI: 0.0522
+[Epoch 19] Rampup: 0.4963
+[Batch 0] CE: 0.1858, Cont: 4.5747, MSE: 0.0246, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.2037, Cont: 5.2933, MSE: 0.0227, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0107, Cont: 4.8442, MSE: 0.0278, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.6185, Cont: 5.0814, MSE: 0.0220, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.8417, Cont: 4.2626, MSE: 0.0244, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.3473, Cont: 4.2626, MSE: 0.0210, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.4080, Cont: 5.0814, MSE: 0.0199, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.8183, Cont: 4.5747, MSE: 0.0254, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.7145, Cont: 5.2933, MSE: 0.0153, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.6194, Cont: 5.4848, MSE: 0.0207, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.1165, Cont: 4.8442, MSE: 0.0188, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.1537, Cont: 5.0814, MSE: 0.0207, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.1298, Cont: 4.5747, MSE: 0.0248, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.2495, Cont: 5.4848, MSE: 0.0204, mask_lb: 5, mask_ulb: 11
+[Epoch 19] Avg Loss: 5.1919
+[HEAD1] ACC: 0.5075, NMI: 0.5719, ARI: 0.0967
+[HEAD2] ACC: 0.3440, NMI: 0.3184, ARI: 0.0763
+[Epoch 20] Rampup: 0.5464
+[Batch 0] CE: 0.1338, Cont: 5.2933, MSE: 0.0229, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.5415, Cont: 4.5747, MSE: 0.0200, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.1724, Cont: 5.2933, MSE: 0.0231, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.6049, Cont: 5.0814, MSE: 0.0222, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.2583, Cont: 5.4848, MSE: 0.0202, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.1028, Cont: 5.4848, MSE: 0.0184, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 0.0748, Cont: 4.8441, MSE: 0.0258, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0102, Cont: 4.8441, MSE: 0.0266, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.3341, Cont: 4.5747, MSE: 0.0255, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.4898, Cont: 4.8441, MSE: 0.0197, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.2380, Cont: 5.4848, MSE: 0.0222, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.4292, Cont: 4.2626, MSE: 0.0272, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.1068, Cont: 5.4848, MSE: 0.0232, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.6094, Cont: 5.0814, MSE: 0.0214, mask_lb: 7, mask_ulb: 9
+[Epoch 20] Avg Loss: 5.0945
+[HEAD1] ACC: 0.5010, NMI: 0.5704, ARI: 0.0812
+[HEAD2] ACC: 0.3140, NMI: 0.3273, ARI: 0.0726
+[Epoch 21] Rampup: 0.6005
+[Batch 0] CE: 0.2360, Cont: 5.4848, MSE: 0.0195, mask_lb: 5, mask_ulb: 11
+[Batch 10] CE: 0.0546, Cont: 5.4848, MSE: 0.0177, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.3847, Cont: 5.0814, MSE: 0.0237, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0081, Cont: 5.0814, MSE: 0.0163, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0477, Cont: 5.0814, MSE: 0.0213, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0785, Cont: 4.2626, MSE: 0.0249, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.3684, Cont: 4.2626, MSE: 0.0242, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.1037, Cont: 3.8917, MSE: 0.0241, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.5468, Cont: 4.8441, MSE: 0.0237, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.2118, Cont: 4.5747, MSE: 0.0240, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.1178, Cont: 4.5747, MSE: 0.0231, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0145, Cont: 4.5746, MSE: 0.0266, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0191, Cont: 4.2626, MSE: 0.0292, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.1067, Cont: 5.2933, MSE: 0.0213, mask_lb: 6, mask_ulb: 10
+[Epoch 21] Avg Loss: 5.0108
+[HEAD1] ACC: 0.5235, NMI: 0.5763, ARI: 0.0966
+[HEAD2] ACC: 0.3035, NMI: 0.3297, ARI: 0.0563
+[Epoch 22] Rampup: 0.6591
+[Batch 0] CE: 0.5093, Cont: 5.0814, MSE: 0.0266, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0165, Cont: 5.2933, MSE: 0.0228, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0923, Cont: 5.2933, MSE: 0.0284, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0369, Cont: 5.2933, MSE: 0.0272, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0010, Cont: 5.2933, MSE: 0.0239, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.4100, Cont: 3.8917, MSE: 0.0277, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 1.6164, Cont: 5.4848, MSE: 0.0202, mask_lb: 5, mask_ulb: 11
+[Batch 70] CE: 0.1723, Cont: 4.5747, MSE: 0.0206, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.1899, Cont: 4.5747, MSE: 0.0249, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.6450, Cont: 3.8917, MSE: 0.0280, mask_lb: 11, mask_ulb: 5
+[Batch 100] CE: 0.0012, Cont: 5.4848, MSE: 0.0200, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.2830, Cont: 4.2626, MSE: 0.0277, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.1997, Cont: 4.8441, MSE: 0.0170, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0753, Cont: 5.4848, MSE: 0.0230, mask_lb: 5, mask_ulb: 11
+[Epoch 22] Avg Loss: 4.9760
+[HEAD1] ACC: 0.5295, NMI: 0.5918, ARI: 0.0913
+[HEAD2] ACC: 0.3110, NMI: 0.3552, ARI: 0.0761
+[Epoch 23] Rampup: 0.7221
+[Batch 0] CE: 0.0223, Cont: 4.5747, MSE: 0.0245, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0633, Cont: 4.8441, MSE: 0.0206, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 1.0074, Cont: 5.2933, MSE: 0.0250, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0096, Cont: 4.8442, MSE: 0.0228, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.1454, Cont: 5.4848, MSE: 0.0185, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.0203, Cont: 4.2626, MSE: 0.0217, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.3102, Cont: 5.0814, MSE: 0.0226, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.4244, Cont: 5.6595, MSE: 0.0194, mask_lb: 4, mask_ulb: 12
+[Batch 80] CE: 0.1145, Cont: 4.8441, MSE: 0.0154, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.4317, Cont: 5.0814, MSE: 0.0232, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.3872, Cont: 4.2626, MSE: 0.0215, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.1038, Cont: 4.5747, MSE: 0.0234, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.3035, Cont: 5.0814, MSE: 0.0257, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0341, Cont: 5.0814, MSE: 0.0228, mask_lb: 7, mask_ulb: 9
+[Epoch 23] Avg Loss: 5.0005
+[HEAD1] ACC: 0.5190, NMI: 0.5844, ARI: 0.0916
+[HEAD2] ACC: 0.3180, NMI: 0.3554, ARI: 0.0871
+[Epoch 24] Rampup: 0.7900
+[Batch 0] CE: 0.1681, Cont: 4.5747, MSE: 0.0143, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.2601, Cont: 4.5747, MSE: 0.0204, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0864, Cont: 1.9454, MSE: 0.0266, mask_lb: 14, mask_ulb: 2
+[Batch 30] CE: 0.0020, Cont: 5.4848, MSE: 0.0150, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0173, Cont: 4.8441, MSE: 0.0201, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.4894, Cont: 4.5746, MSE: 0.0193, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.7189, Cont: 4.8441, MSE: 0.0185, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0318, Cont: 5.0814, MSE: 0.0185, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.1394, Cont: 4.5747, MSE: 0.0229, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.2289, Cont: 4.8441, MSE: 0.0190, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0410, Cont: 4.8441, MSE: 0.0182, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.1381, Cont: 5.4848, MSE: 0.0176, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0565, Cont: 4.5747, MSE: 0.0213, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.7018, Cont: 4.2626, MSE: 0.0161, mask_lb: 10, mask_ulb: 6
+[Epoch 24] Avg Loss: 4.9880
+[HEAD1] ACC: 0.5070, NMI: 0.5653, ARI: 0.0871
+[HEAD2] ACC: 0.3420, NMI: 0.3858, ARI: 0.0707
+[Epoch 25] Rampup: 0.8629
+[Batch 0] CE: 0.3374, Cont: 4.8441, MSE: 0.0178, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0071, Cont: 5.0814, MSE: 0.0164, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0359, Cont: 4.5747, MSE: 0.0230, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0617, Cont: 5.4848, MSE: 0.0124, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0279, Cont: 5.0814, MSE: 0.0157, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.1030, Cont: 4.5747, MSE: 0.0191, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.7964, Cont: 4.5747, MSE: 0.0209, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.2393, Cont: 3.4338, MSE: 0.0264, mask_lb: 12, mask_ulb: 4
+[Batch 80] CE: 0.2133, Cont: 3.8917, MSE: 0.0214, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 0.0060, Cont: 5.0814, MSE: 0.0192, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.1946, Cont: 5.0814, MSE: 0.0166, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.1760, Cont: 4.8441, MSE: 0.0226, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.1996, Cont: 5.0814, MSE: 0.0176, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0935, Cont: 6.1070, MSE: 0.0163, mask_lb: 1, mask_ulb: 15
+[Epoch 25] Avg Loss: 4.9850
+[HEAD1] ACC: 0.5245, NMI: 0.5560, ARI: 0.0920
+[HEAD2] ACC: 0.3825, NMI: 0.3928, ARI: 0.0862
+[Epoch 26] Rampup: 0.9411
+[Batch 0] CE: 0.4413, Cont: 4.8441, MSE: 0.0170, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0393, Cont: 4.5746, MSE: 0.0176, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0195, Cont: 3.8917, MSE: 0.0211, mask_lb: 11, mask_ulb: 5
+[Batch 30] CE: 0.0198, Cont: 4.8441, MSE: 0.0189, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0870, Cont: 4.5747, MSE: 0.0175, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0690, Cont: 4.8442, MSE: 0.0161, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.7757, Cont: 4.2626, MSE: 0.0156, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.4690, Cont: 5.0814, MSE: 0.0249, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0364, Cont: 5.0814, MSE: 0.0178, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.1073, Cont: 5.0814, MSE: 0.0186, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0570, Cont: 4.8441, MSE: 0.0135, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0018, Cont: 4.5747, MSE: 0.0184, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.1995, Cont: 4.5746, MSE: 0.0169, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0555, Cont: 5.0814, MSE: 0.0169, mask_lb: 7, mask_ulb: 9
+[Epoch 26] Avg Loss: 5.0176
+[HEAD1] ACC: 0.4945, NMI: 0.5596, ARI: 0.0825
+[HEAD2] ACC: 0.3670, NMI: 0.3957, ARI: 0.0771
+[Epoch 27] Rampup: 1.0000
+[Batch 0] CE: 0.1269, Cont: 4.8441, MSE: 0.0165, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.7098, Cont: 5.0814, MSE: 0.0152, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.3035, Cont: 4.2626, MSE: 0.0173, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0246, Cont: 5.2933, MSE: 0.0149, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.1964, Cont: 4.8441, MSE: 0.0176, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0266, Cont: 5.0814, MSE: 0.0174, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.4682, Cont: 5.2933, MSE: 0.0163, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0210, Cont: 4.8441, MSE: 0.0195, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0467, Cont: 5.2933, MSE: 0.0131, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0839, Cont: 4.2626, MSE: 0.0165, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0293, Cont: 4.8441, MSE: 0.0215, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.5447, Cont: 4.8442, MSE: 0.0194, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.1335, Cont: 3.4338, MSE: 0.0161, mask_lb: 12, mask_ulb: 4
+[Batch 124] CE: 0.0253, Cont: 4.8441, MSE: 0.0207, mask_lb: 8, mask_ulb: 8
+[Epoch 27] Avg Loss: 4.9275
+[HEAD1] ACC: 0.5585, NMI: 0.6067, ARI: 0.0999
+[HEAD2] ACC: 0.3945, NMI: 0.4372, ARI: 0.0760
+[Epoch 28] Rampup: 1.0000
+[Batch 0] CE: 0.0110, Cont: 4.2626, MSE: 0.0155, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0010, Cont: 5.2933, MSE: 0.0155, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.1823, Cont: 5.0814, MSE: 0.0195, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.2118, Cont: 4.5747, MSE: 0.0134, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0526, Cont: 4.8441, MSE: 0.0119, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0042, Cont: 5.2933, MSE: 0.0183, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.9332, Cont: 4.5747, MSE: 0.0228, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0163, Cont: 5.0814, MSE: 0.0165, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.2925, Cont: 5.8201, MSE: 0.0104, mask_lb: 3, mask_ulb: 13
+[Batch 90] CE: 0.0132, Cont: 5.2933, MSE: 0.0222, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0227, Cont: 5.2933, MSE: 0.0196, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0386, Cont: 3.8917, MSE: 0.0143, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0224, Cont: 4.5746, MSE: 0.0193, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0415, Cont: 4.2626, MSE: 0.0236, mask_lb: 10, mask_ulb: 6
+[Epoch 28] Avg Loss: 4.8952
+[HEAD1] ACC: 0.5195, NMI: 0.5918, ARI: 0.0858
+[HEAD2] ACC: 0.3610, NMI: 0.4302, ARI: 0.0670
+[Epoch 29] Rampup: 1.0000
+[Batch 0] CE: 0.0284, Cont: 5.0814, MSE: 0.0200, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0115, Cont: 5.2933, MSE: 0.0187, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.1239, Cont: 5.2933, MSE: 0.0210, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0049, Cont: 5.2933, MSE: 0.0126, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.1510, Cont: 4.8441, MSE: 0.0157, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.2029, Cont: 4.8441, MSE: 0.0119, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.2044, Cont: 5.6595, MSE: 0.0087, mask_lb: 4, mask_ulb: 12
+[Batch 70] CE: 0.7941, Cont: 5.0814, MSE: 0.0095, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.2344, Cont: 5.0814, MSE: 0.0100, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0205, Cont: 5.0814, MSE: 0.0148, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0722, Cont: 5.0814, MSE: 0.0145, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0070, Cont: 4.8441, MSE: 0.0147, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.6372, Cont: 5.0814, MSE: 0.0124, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0297, Cont: 3.8917, MSE: 0.0132, mask_lb: 11, mask_ulb: 5
+[Epoch 29] Avg Loss: 4.9949
+[HEAD1] ACC: 0.5230, NMI: 0.5908, ARI: 0.0890
+[HEAD2] ACC: 0.4275, NMI: 0.4691, ARI: 0.0840
+[Epoch 30] Rampup: 1.0000
+[Batch 0] CE: 0.0809, Cont: 4.5747, MSE: 0.0181, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0824, Cont: 4.8442, MSE: 0.0122, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0364, Cont: 5.2933, MSE: 0.0163, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.3603, Cont: 4.5747, MSE: 0.0180, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.5380, Cont: 4.8442, MSE: 0.0088, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.1690, Cont: 5.2933, MSE: 0.0146, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0879, Cont: 4.5747, MSE: 0.0107, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.2697, Cont: 4.5747, MSE: 0.0181, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0533, Cont: 4.8441, MSE: 0.0156, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0122, Cont: 4.8441, MSE: 0.0163, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0170, Cont: 5.2933, MSE: 0.0183, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0103, Cont: 3.8917, MSE: 0.0101, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0931, Cont: 5.2933, MSE: 0.0155, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.2083, Cont: 5.4848, MSE: 0.0124, mask_lb: 5, mask_ulb: 11
+[Epoch 30] Avg Loss: 4.9527
+[HEAD1] ACC: 0.5235, NMI: 0.6017, ARI: 0.0887
+[HEAD2] ACC: 0.3935, NMI: 0.4625, ARI: 0.0681
+[Epoch 31] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.4848, MSE: 0.0083, mask_lb: 5, mask_ulb: 11
+[Batch 10] CE: 0.0486, Cont: 4.8442, MSE: 0.0117, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0050, Cont: 3.8917, MSE: 0.0134, mask_lb: 11, mask_ulb: 5
+[Batch 30] CE: 0.1184, Cont: 4.2626, MSE: 0.0133, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.4061, Cont: 4.8441, MSE: 0.0176, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0240, Cont: 4.8441, MSE: 0.0169, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0086, Cont: 5.0814, MSE: 0.0119, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0267, Cont: 4.8441, MSE: 0.0148, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0046, Cont: 5.8201, MSE: 0.0125, mask_lb: 3, mask_ulb: 13
+[Batch 90] CE: 0.0002, Cont: 4.5747, MSE: 0.0087, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0012, Cont: 5.2933, MSE: 0.0094, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0245, Cont: 5.2933, MSE: 0.0149, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.0039, Cont: 4.5747, MSE: 0.0201, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.1236, Cont: 4.8442, MSE: 0.0129, mask_lb: 8, mask_ulb: 8
+[Epoch 31] Avg Loss: 4.8667
+[HEAD1] ACC: 0.5570, NMI: 0.6073, ARI: 0.0981
+[HEAD2] ACC: 0.4585, NMI: 0.4825, ARI: 0.0860
+[Epoch 32] Rampup: 1.0000
+[Batch 0] CE: 0.0050, Cont: 4.8441, MSE: 0.0117, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0133, Cont: 4.8441, MSE: 0.0205, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0111, Cont: 4.8441, MSE: 0.0096, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0050, Cont: 5.0814, MSE: 0.0141, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0333, Cont: 4.8441, MSE: 0.0109, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0035, Cont: 5.2933, MSE: 0.0131, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0392, Cont: 4.2626, MSE: 0.0186, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0538, Cont: 5.0814, MSE: 0.0136, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0044, Cont: 4.2626, MSE: 0.0168, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 2.4090, Cont: 4.8441, MSE: 0.0195, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0063, Cont: 5.0814, MSE: 0.0128, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.3277, Cont: 5.2933, MSE: 0.0152, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.1346, Cont: 4.8441, MSE: 0.0151, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0003, Cont: 5.2933, MSE: 0.0147, mask_lb: 6, mask_ulb: 10
+[Epoch 32] Avg Loss: 4.9160
+[HEAD1] ACC: 0.5490, NMI: 0.5930, ARI: 0.0987
+[HEAD2] ACC: 0.4775, NMI: 0.4975, ARI: 0.0903
+[Epoch 33] Rampup: 1.0000
+[Batch 0] CE: 0.0493, Cont: 4.5747, MSE: 0.0148, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.1579, Cont: 5.2933, MSE: 0.0123, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0004, Cont: 5.8201, MSE: 0.0103, mask_lb: 3, mask_ulb: 13
+[Batch 30] CE: 0.0051, Cont: 5.2933, MSE: 0.0074, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0004, Cont: 4.8442, MSE: 0.0086, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0099, Cont: 5.6595, MSE: 0.0140, mask_lb: 4, mask_ulb: 12
+[Batch 60] CE: 0.0080, Cont: 5.0814, MSE: 0.0137, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.1252, Cont: 4.2626, MSE: 0.0142, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.4059, Cont: 4.8441, MSE: 0.0121, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0155, Cont: 4.2626, MSE: 0.0127, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.6054, Cont: 4.8441, MSE: 0.0152, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.2483, Cont: 4.5747, MSE: 0.0097, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.5384, Cont: 5.4848, MSE: 0.0185, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0051, Cont: 4.8442, MSE: 0.0154, mask_lb: 8, mask_ulb: 8
+[Epoch 33] Avg Loss: 4.9487
+[HEAD1] ACC: 0.5350, NMI: 0.5818, ARI: 0.0920
+[HEAD2] ACC: 0.4635, NMI: 0.5042, ARI: 0.0808
+[Epoch 34] Rampup: 1.0000
+[Batch 0] CE: 1.6245, Cont: 5.2933, MSE: 0.0132, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.4120, Cont: 4.8441, MSE: 0.0124, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.2633, Cont: 4.5746, MSE: 0.0084, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0446, Cont: 4.8441, MSE: 0.0149, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0344, Cont: 4.5746, MSE: 0.0101, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0007, Cont: 5.2933, MSE: 0.0098, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.1292, Cont: 5.6595, MSE: 0.0144, mask_lb: 4, mask_ulb: 12
+[Batch 70] CE: 0.0365, Cont: 4.8441, MSE: 0.0087, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0025, Cont: 5.2933, MSE: 0.0088, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0039, Cont: 5.2933, MSE: 0.0102, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0016, Cont: 5.2933, MSE: 0.0167, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0046, Cont: 4.5746, MSE: 0.0090, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0018, Cont: 4.8441, MSE: 0.0126, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0134, Cont: 4.8441, MSE: 0.0175, mask_lb: 8, mask_ulb: 8
+[Epoch 34] Avg Loss: 4.8813
+[HEAD1] ACC: 0.5520, NMI: 0.6041, ARI: 0.0955
+[HEAD2] ACC: 0.4815, NMI: 0.5205, ARI: 0.0888
+[Epoch 35] Rampup: 1.0000
+[Batch 0] CE: 0.1074, Cont: 4.5747, MSE: 0.0121, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0085, Cont: 4.8441, MSE: 0.0127, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0116, Cont: 4.5746, MSE: 0.0088, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0002, Cont: 4.8441, MSE: 0.0086, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0553, Cont: 4.5746, MSE: 0.0075, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.1675, Cont: 5.2933, MSE: 0.0107, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0523, Cont: 4.5747, MSE: 0.0070, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.1545, Cont: 3.8917, MSE: 0.0140, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.0175, Cont: 5.2933, MSE: 0.0111, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.2905, Cont: 5.0814, MSE: 0.0105, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0268, Cont: 3.8917, MSE: 0.0107, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0040, Cont: 5.4848, MSE: 0.0145, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0108, Cont: 4.2626, MSE: 0.0157, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0033, Cont: 3.4338, MSE: 0.0086, mask_lb: 12, mask_ulb: 4
+[Epoch 35] Avg Loss: 4.8416
+[HEAD1] ACC: 0.5465, NMI: 0.6098, ARI: 0.0919
+[HEAD2] ACC: 0.4725, NMI: 0.5278, ARI: 0.0794
+[Epoch 36] Rampup: 1.0000
+[Batch 0] CE: 0.0039, Cont: 5.2933, MSE: 0.0162, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0043, Cont: 4.2626, MSE: 0.0121, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0006, Cont: 4.2626, MSE: 0.0084, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0002, Cont: 5.0814, MSE: 0.0078, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0094, Cont: 5.0814, MSE: 0.0082, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0422, Cont: 4.8441, MSE: 0.0062, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0032, Cont: 3.8917, MSE: 0.0063, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.0005, Cont: 4.8442, MSE: 0.0071, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0043, Cont: 4.2626, MSE: 0.0113, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0175, Cont: 4.8442, MSE: 0.0091, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0004, Cont: 5.2933, MSE: 0.0119, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0002, Cont: 5.2933, MSE: 0.0091, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.0274, Cont: 3.8917, MSE: 0.0092, mask_lb: 11, mask_ulb: 5
+[Batch 124] CE: 0.0272, Cont: 4.8441, MSE: 0.0100, mask_lb: 8, mask_ulb: 8
+[Epoch 36] Avg Loss: 4.8086
+[HEAD1] ACC: 0.5635, NMI: 0.6123, ARI: 0.1004
+[HEAD2] ACC: 0.5065, NMI: 0.5366, ARI: 0.0944
+[Epoch 37] Rampup: 1.0000
+[Batch 0] CE: 0.0159, Cont: 5.0814, MSE: 0.0110, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0015, Cont: 4.8441, MSE: 0.0078, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0003, Cont: 5.0814, MSE: 0.0050, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0937, Cont: 5.2933, MSE: 0.0083, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0070, Cont: 5.2933, MSE: 0.0066, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0025, Cont: 5.2933, MSE: 0.0104, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0015, Cont: 3.8917, MSE: 0.0058, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.0018, Cont: 4.5747, MSE: 0.0098, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0036, Cont: 4.8441, MSE: 0.0102, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0570, Cont: 4.2626, MSE: 0.0136, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.3053, Cont: 4.2626, MSE: 0.0084, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0065, Cont: 3.8917, MSE: 0.0065, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0157, Cont: 5.4848, MSE: 0.0054, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0496, Cont: 4.8441, MSE: 0.0103, mask_lb: 8, mask_ulb: 8
+[Epoch 37] Avg Loss: 4.8662
+[HEAD1] ACC: 0.5630, NMI: 0.6136, ARI: 0.1077
+[HEAD2] ACC: 0.4900, NMI: 0.5380, ARI: 0.0920
+[Epoch 38] Rampup: 1.0000
+[Batch 0] CE: 0.0021, Cont: 4.5746, MSE: 0.0093, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0135, Cont: 4.8441, MSE: 0.0083, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0090, Cont: 5.0814, MSE: 0.0136, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0029, Cont: 4.2626, MSE: 0.0099, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0432, Cont: 4.8441, MSE: 0.0129, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0007, Cont: 5.2933, MSE: 0.0092, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0028, Cont: 5.0814, MSE: 0.0080, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0511, Cont: 5.4848, MSE: 0.0094, mask_lb: 5, mask_ulb: 11
+[Batch 80] CE: 0.1328, Cont: 4.2626, MSE: 0.0070, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0353, Cont: 5.0814, MSE: 0.0062, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0208, Cont: 4.8442, MSE: 0.0081, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0093, Cont: 5.4848, MSE: 0.0123, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0306, Cont: 5.2933, MSE: 0.0154, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0057, Cont: 4.8441, MSE: 0.0147, mask_lb: 8, mask_ulb: 8
+[Epoch 38] Avg Loss: 4.8376
+[HEAD1] ACC: 0.5355, NMI: 0.6114, ARI: 0.0920
+[HEAD2] ACC: 0.4855, NMI: 0.5441, ARI: 0.0822
+[Epoch 39] Rampup: 1.0000
+[Batch 0] CE: 0.0095, Cont: 4.2626, MSE: 0.0083, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0061, Cont: 5.4848, MSE: 0.0082, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0113, Cont: 5.8201, MSE: 0.0080, mask_lb: 3, mask_ulb: 13
+[Batch 30] CE: 0.0006, Cont: 4.5747, MSE: 0.0100, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0007, Cont: 4.5747, MSE: 0.0071, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0002, Cont: 4.8441, MSE: 0.0061, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0143, Cont: 4.8441, MSE: 0.0039, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 4.8441, MSE: 0.0077, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0039, Cont: 4.8441, MSE: 0.0040, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0000, Cont: 3.4338, MSE: 0.0089, mask_lb: 12, mask_ulb: 4
+[Batch 100] CE: 0.0000, Cont: 5.2933, MSE: 0.0054, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0000, Cont: 3.8917, MSE: 0.0060, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0059, Cont: 3.8917, MSE: 0.0115, mask_lb: 11, mask_ulb: 5
+[Batch 124] CE: 0.0017, Cont: 5.0814, MSE: 0.0102, mask_lb: 7, mask_ulb: 9
+[Epoch 39] Avg Loss: 4.7995
+[HEAD1] ACC: 0.5440, NMI: 0.6069, ARI: 0.0891
+[HEAD2] ACC: 0.5185, NMI: 0.5663, ARI: 0.0897
+[Epoch 40] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 3.8917, MSE: 0.0019, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0044, Cont: 5.2933, MSE: 0.0115, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0001, Cont: 5.4848, MSE: 0.0071, mask_lb: 5, mask_ulb: 11
+[Batch 30] CE: 0.0001, Cont: 4.5747, MSE: 0.0054, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0006, Cont: 4.5747, MSE: 0.0090, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0080, Cont: 5.0814, MSE: 0.0061, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0000, Cont: 4.8441, MSE: 0.0062, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 4.5747, MSE: 0.0066, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0004, Cont: 5.2933, MSE: 0.0048, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0002, Cont: 4.2626, MSE: 0.0040, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0001, Cont: 5.0814, MSE: 0.0027, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0010, Cont: 4.2626, MSE: 0.0082, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0054, Cont: 4.5746, MSE: 0.0047, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0000, Cont: 3.4339, MSE: 0.0039, mask_lb: 12, mask_ulb: 4
+[Epoch 40] Avg Loss: 4.7786
+[HEAD1] ACC: 0.5600, NMI: 0.6147, ARI: 0.0980
+[HEAD2] ACC: 0.5360, NMI: 0.5822, ARI: 0.0976
+[Epoch 41] Rampup: 1.0000
+[Batch 0] CE: 0.0005, Cont: 5.4848, MSE: 0.0066, mask_lb: 5, mask_ulb: 11
+[Batch 10] CE: 0.0000, Cont: 4.5747, MSE: 0.0029, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0000, Cont: 4.2626, MSE: 0.0027, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0031, Cont: 4.5747, MSE: 0.0058, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0009, Cont: 5.0814, MSE: 0.0053, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0002, Cont: 4.2626, MSE: 0.0037, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0013, Cont: 5.4848, MSE: 0.0034, mask_lb: 5, mask_ulb: 11
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0033, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0030, Cont: 5.2933, MSE: 0.0059, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0002, Cont: 4.2626, MSE: 0.0035, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0028, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 4.8442, MSE: 0.0052, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0002, Cont: 4.5747, MSE: 0.0091, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0004, Cont: 5.0814, MSE: 0.0054, mask_lb: 7, mask_ulb: 9
+[Epoch 41] Avg Loss: 4.7811
+[HEAD1] ACC: 0.5580, NMI: 0.6132, ARI: 0.0967
+[HEAD2] ACC: 0.5500, NMI: 0.5975, ARI: 0.1012
+[Epoch 42] Rampup: 1.0000
+[Batch 0] CE: 0.0029, Cont: 5.0814, MSE: 0.0053, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0003, Cont: 3.8917, MSE: 0.0045, mask_lb: 11, mask_ulb: 5
+[Batch 20] CE: 0.0015, Cont: 4.5747, MSE: 0.0078, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0001, Cont: 5.0814, MSE: 0.0047, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0002, Cont: 4.5747, MSE: 0.0027, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 4.2626, MSE: 0.0045, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0004, Cont: 5.0814, MSE: 0.0036, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0006, Cont: 4.2626, MSE: 0.0035, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0017, Cont: 4.8441, MSE: 0.0097, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0002, Cont: 5.0814, MSE: 0.0050, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0051, Cont: 4.8441, MSE: 0.0049, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 4.2626, MSE: 0.0022, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0003, Cont: 5.2933, MSE: 0.0032, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0093, Cont: 5.2933, MSE: 0.0093, mask_lb: 6, mask_ulb: 10
+[Epoch 42] Avg Loss: 4.7782
+[HEAD1] ACC: 0.5625, NMI: 0.6149, ARI: 0.1007
+[HEAD2] ACC: 0.5515, NMI: 0.6003, ARI: 0.1013
+[Epoch 43] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.0814, MSE: 0.0040, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0003, Cont: 4.8441, MSE: 0.0046, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0003, Cont: 4.5747, MSE: 0.0057, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0029, Cont: 4.8441, MSE: 0.0097, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0012, Cont: 3.4338, MSE: 0.0057, mask_lb: 12, mask_ulb: 4
+[Batch 50] CE: 0.0019, Cont: 5.2933, MSE: 0.0062, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0002, Cont: 2.8329, MSE: 0.0026, mask_lb: 13, mask_ulb: 3
+[Batch 70] CE: 0.0254, Cont: 4.5747, MSE: 0.0067, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0000, Cont: 4.8441, MSE: 0.0021, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0010, Cont: 4.5747, MSE: 0.0072, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0002, Cont: 5.0814, MSE: 0.0042, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0004, Cont: 4.2626, MSE: 0.0033, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0001, Cont: 5.0814, MSE: 0.0045, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0000, Cont: 3.8917, MSE: 0.0024, mask_lb: 11, mask_ulb: 5
+[Epoch 43] Avg Loss: 4.7860
+[HEAD1] ACC: 0.5645, NMI: 0.6182, ARI: 0.1035
+[HEAD2] ACC: 0.5550, NMI: 0.6035, ARI: 0.1043
+[Epoch 44] Rampup: 1.0000
+[Batch 0] CE: 0.0004, Cont: 5.0814, MSE: 0.0035, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0007, Cont: 4.8441, MSE: 0.0076, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0000, Cont: 5.0814, MSE: 0.0061, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0001, Cont: 4.8441, MSE: 0.0052, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0001, Cont: 3.4339, MSE: 0.0028, mask_lb: 12, mask_ulb: 4
+[Batch 50] CE: 0.0000, Cont: 4.8441, MSE: 0.0032, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0174, Cont: 4.8441, MSE: 0.0035, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0015, Cont: 4.2626, MSE: 0.0088, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0000, Cont: 5.2933, MSE: 0.0038, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0000, Cont: 5.2933, MSE: 0.0043, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0000, Cont: 4.5746, MSE: 0.0021, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0000, Cont: 4.8441, MSE: 0.0017, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0000, Cont: 5.4848, MSE: 0.0070, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0000, Cont: 4.8441, MSE: 0.0030, mask_lb: 8, mask_ulb: 8
+[Epoch 44] Avg Loss: 4.7853
+[HEAD1] ACC: 0.5670, NMI: 0.6179, ARI: 0.1042
+[HEAD2] ACC: 0.5610, NMI: 0.6087, ARI: 0.1059
+[Epoch 45] Rampup: 1.0000
+[Batch 0] CE: 0.0082, Cont: 5.2933, MSE: 0.0032, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0001, Cont: 5.6595, MSE: 0.0032, mask_lb: 4, mask_ulb: 12
+[Batch 20] CE: 0.0035, Cont: 5.0814, MSE: 0.0045, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0006, Cont: 4.8441, MSE: 0.0029, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0046, Cont: 4.8441, MSE: 0.0035, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0012, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0000, Cont: 5.0814, MSE: 0.0031, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0000, Cont: 4.8441, MSE: 0.0029, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0001, Cont: 5.2933, MSE: 0.0051, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0002, Cont: 4.5746, MSE: 0.0027, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0003, Cont: 4.5747, MSE: 0.0045, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0004, Cont: 5.0814, MSE: 0.0043, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 4.2626, MSE: 0.0032, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0004, Cont: 3.8917, MSE: 0.0037, mask_lb: 11, mask_ulb: 5
+[Epoch 45] Avg Loss: 4.7829
+[HEAD1] ACC: 0.5670, NMI: 0.6173, ARI: 0.1035
+[HEAD2] ACC: 0.5605, NMI: 0.6070, ARI: 0.1049
+[Epoch 46] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.2626, MSE: 0.0020, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0001, Cont: 4.5747, MSE: 0.0032, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0003, Cont: 4.2626, MSE: 0.0037, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0000, Cont: 5.6595, MSE: 0.0042, mask_lb: 4, mask_ulb: 12
+[Batch 40] CE: 0.0002, Cont: 4.8441, MSE: 0.0043, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0001, Cont: 4.2626, MSE: 0.0022, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0023, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0010, Cont: 5.4848, MSE: 0.0037, mask_lb: 5, mask_ulb: 11
+[Batch 90] CE: 0.0001, Cont: 4.5747, MSE: 0.0041, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0024, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0031, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 4.2626, MSE: 0.0037, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0003, Cont: 5.0814, MSE: 0.0025, mask_lb: 7, mask_ulb: 9
+[Epoch 46] Avg Loss: 4.7712
+[HEAD1] ACC: 0.5665, NMI: 0.6187, ARI: 0.1043
+[HEAD2] ACC: 0.5640, NMI: 0.6124, ARI: 0.1068
+[Epoch 47] Rampup: 1.0000
+[Batch 0] CE: 0.0005, Cont: 3.8917, MSE: 0.0030, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0002, Cont: 4.5747, MSE: 0.0070, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0000, Cont: 5.2933, MSE: 0.0017, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0001, Cont: 4.2626, MSE: 0.0018, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0001, Cont: 4.5747, MSE: 0.0031, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0015, Cont: 4.8442, MSE: 0.0038, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0000, Cont: 4.8441, MSE: 0.0029, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 5.2933, MSE: 0.0026, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0004, Cont: 5.0814, MSE: 0.0025, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0001, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0010, Cont: 4.2626, MSE: 0.0032, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0008, Cont: 5.0814, MSE: 0.0053, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 5.4848, MSE: 0.0035, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0006, Cont: 5.0814, MSE: 0.0045, mask_lb: 7, mask_ulb: 9
+[Epoch 47] Avg Loss: 4.7832
+[HEAD1] ACC: 0.5670, NMI: 0.6195, ARI: 0.1050
+[HEAD2] ACC: 0.5640, NMI: 0.6128, ARI: 0.1059
+[Epoch 48] Rampup: 1.0000
+[Batch 0] CE: 0.0002, Cont: 4.2626, MSE: 0.0065, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0004, Cont: 5.4848, MSE: 0.0029, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0001, Cont: 5.4848, MSE: 0.0017, mask_lb: 5, mask_ulb: 11
+[Batch 30] CE: 0.0000, Cont: 4.8442, MSE: 0.0028, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0004, Cont: 5.4848, MSE: 0.0047, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.0002, Cont: 5.4848, MSE: 0.0027, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 0.0001, Cont: 3.8917, MSE: 0.0048, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.0012, Cont: 5.2933, MSE: 0.0030, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 4.8442, MSE: 0.0032, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0001, Cont: 5.2933, MSE: 0.0023, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0000, Cont: 4.5746, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0001, Cont: 5.2933, MSE: 0.0024, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.0000, Cont: 5.8201, MSE: 0.0029, mask_lb: 3, mask_ulb: 13
+[Batch 124] CE: 0.0000, Cont: 4.2626, MSE: 0.0031, mask_lb: 10, mask_ulb: 6
+[Epoch 48] Avg Loss: 4.7665
+[HEAD1] ACC: 0.5630, NMI: 0.6176, ARI: 0.1018
+[HEAD2] ACC: 0.5640, NMI: 0.6149, ARI: 0.1058
+[Epoch 49] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.8441, MSE: 0.0021, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0002, Cont: 5.0814, MSE: 0.0027, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0011, Cont: 3.8917, MSE: 0.0045, mask_lb: 11, mask_ulb: 5
+[Batch 30] CE: 0.0002, Cont: 5.0814, MSE: 0.0015, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0001, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0000, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0007, Cont: 3.8917, MSE: 0.0022, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.0000, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0001, Cont: 4.8441, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0002, Cont: 4.2626, MSE: 0.0036, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0001, Cont: 5.6595, MSE: 0.0025, mask_lb: 4, mask_ulb: 12
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0028, Cont: 5.0814, MSE: 0.0037, mask_lb: 7, mask_ulb: 9
+[Epoch 49] Avg Loss: 4.7834
+[HEAD1] ACC: 0.5655, NMI: 0.6184, ARI: 0.1034
+[HEAD2] ACC: 0.5660, NMI: 0.6167, ARI: 0.1065
+[Epoch 50] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 5.6595, MSE: 0.0032, mask_lb: 4, mask_ulb: 12
+[Batch 10] CE: 0.0005, Cont: 4.5747, MSE: 0.0036, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0038, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0001, Cont: 4.5747, MSE: 0.0026, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0002, Cont: 4.2626, MSE: 0.0023, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0008, Cont: 4.5747, MSE: 0.0040, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0003, Cont: 4.8442, MSE: 0.0014, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0002, Cont: 5.2933, MSE: 0.0024, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0015, Cont: 4.2626, MSE: 0.0040, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 4.8441, MSE: 0.0026, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0005, Cont: 5.2933, MSE: 0.0030, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0008, Cont: 4.5746, MSE: 0.0020, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0017, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0000, Cont: 3.8917, MSE: 0.0034, mask_lb: 11, mask_ulb: 5
+[Epoch 50] Avg Loss: 4.7708
+[HEAD1] ACC: 0.5660, NMI: 0.6198, ARI: 0.1046
+[HEAD2] ACC: 0.5660, NMI: 0.6178, ARI: 0.1070
+[Epoch 51] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0000, Cont: 4.8441, MSE: 0.0022, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0002, Cont: 4.8441, MSE: 0.0037, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0006, Cont: 5.0814, MSE: 0.0023, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0002, Cont: 4.5747, MSE: 0.0024, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0005, Cont: 5.0814, MSE: 0.0044, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0004, Cont: 4.5747, MSE: 0.0031, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0003, Cont: 5.2933, MSE: 0.0033, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0005, Cont: 5.0814, MSE: 0.0027, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0001, Cont: 4.8441, MSE: 0.0014, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0003, Cont: 5.0814, MSE: 0.0010, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0000, Cont: 5.2933, MSE: 0.0020, mask_lb: 6, mask_ulb: 10
+[Epoch 51] Avg Loss: 4.7723
+[HEAD1] ACC: 0.5680, NMI: 0.6203, ARI: 0.1059
+[HEAD2] ACC: 0.5680, NMI: 0.6179, ARI: 0.1072
+[Epoch 52] Rampup: 1.0000
+[Batch 0] CE: 0.0010, Cont: 4.5747, MSE: 0.0027, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0007, Cont: 5.6595, MSE: 0.0032, mask_lb: 4, mask_ulb: 12
+[Batch 20] CE: 0.0020, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0003, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0000, Cont: 5.4848, MSE: 0.0016, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.0002, Cont: 4.2626, MSE: 0.0043, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0000, Cont: 1.9454, MSE: 0.0009, mask_lb: 14, mask_ulb: 2
+[Batch 70] CE: 0.0000, Cont: 4.8442, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 4.8442, MSE: 0.0014, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0007, Cont: 5.0814, MSE: 0.0044, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0005, Cont: 5.2933, MSE: 0.0019, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0005, Cont: 3.8917, MSE: 0.0019, mask_lb: 11, mask_ulb: 5
+[Epoch 52] Avg Loss: 4.7674
+[HEAD1] ACC: 0.5680, NMI: 0.6189, ARI: 0.1050
+[HEAD2] ACC: 0.5670, NMI: 0.6182, ARI: 0.1069
+[Epoch 53] Rampup: 1.0000
+[Batch 0] CE: 0.0005, Cont: 5.0814, MSE: 0.0028, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0002, Cont: 4.8441, MSE: 0.0030, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0001, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0001, Cont: 4.5747, MSE: 0.0025, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0004, Cont: 4.5746, MSE: 0.0037, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0001, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0015, Cont: 5.2933, MSE: 0.0026, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 4.8442, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0001, Cont: 4.2626, MSE: 0.0028, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0004, Cont: 1.9452, MSE: 0.0029, mask_lb: 14, mask_ulb: 2
+[Batch 110] CE: 0.0004, Cont: 5.4848, MSE: 0.0019, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0001, Cont: 4.5747, MSE: 0.0019, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0007, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Epoch 53] Avg Loss: 4.7816
+[HEAD1] ACC: 0.5675, NMI: 0.6198, ARI: 0.1055
+[HEAD2] ACC: 0.5665, NMI: 0.6179, ARI: 0.1066
+[Epoch 54] Rampup: 1.0000
+[Batch 0] CE: 0.0005, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0000, Cont: 5.8201, MSE: 0.0006, mask_lb: 3, mask_ulb: 13
+[Batch 20] CE: 0.0001, Cont: 4.8441, MSE: 0.0025, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0001, Cont: 5.0814, MSE: 0.0014, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0021, Cont: 4.5747, MSE: 0.0045, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0003, Cont: 4.2626, MSE: 0.0014, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0001, Cont: 4.2626, MSE: 0.0023, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0010, Cont: 5.0814, MSE: 0.0037, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 4.2626, MSE: 0.0020, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 5.2933, MSE: 0.0020, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0002, Cont: 4.8441, MSE: 0.0026, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0001, Cont: 4.5747, MSE: 0.0017, mask_lb: 9, mask_ulb: 7
+[Epoch 54] Avg Loss: 4.7681
+[HEAD1] ACC: 0.5665, NMI: 0.6198, ARI: 0.1049
+[HEAD2] ACC: 0.5660, NMI: 0.6181, ARI: 0.1063
+[Epoch 55] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8441, MSE: 0.0018, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.5746, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0000, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0000, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0001, Cont: 5.4848, MSE: 0.0016, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.0000, Cont: 4.2626, MSE: 0.0014, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0004, Cont: 5.0814, MSE: 0.0010, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0013, Cont: 4.2626, MSE: 0.0034, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0003, Cont: 5.0814, MSE: 0.0021, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 5.2933, MSE: 0.0020, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0001, Cont: 3.8917, MSE: 0.0019, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0000, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0003, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Epoch 55] Avg Loss: 4.7851
+[HEAD1] ACC: 0.5670, NMI: 0.6199, ARI: 0.1053
+[HEAD2] ACC: 0.5665, NMI: 0.6192, ARI: 0.1068
+[Epoch 56] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 3.8917, MSE: 0.0012, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0000, Cont: 4.2626, MSE: 0.0026, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0003, Cont: 4.2626, MSE: 0.0020, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0011, Cont: 5.0814, MSE: 0.0026, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0001, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0000, Cont: 5.6595, MSE: 0.0024, mask_lb: 4, mask_ulb: 12
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0004, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0029, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0006, Cont: 4.8441, MSE: 0.0013, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0000, Cont: 3.8917, MSE: 0.0011, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0010, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0000, Cont: 4.8442, MSE: 0.0029, mask_lb: 8, mask_ulb: 8
+[Epoch 56] Avg Loss: 4.7862
+[HEAD1] ACC: 0.5665, NMI: 0.6196, ARI: 0.1050
+[HEAD2] ACC: 0.5665, NMI: 0.6183, ARI: 0.1067
+[Epoch 57] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 4.5746, MSE: 0.0045, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0001, Cont: 4.5747, MSE: 0.0015, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0007, Cont: 4.8442, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0001, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0002, Cont: 4.8442, MSE: 0.0024, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0000, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0000, Cont: 3.8917, MSE: 0.0004, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.0004, Cont: 4.8442, MSE: 0.0016, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0003, Cont: 5.4848, MSE: 0.0010, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.0005, Cont: 2.8330, MSE: 0.0009, mask_lb: 13, mask_ulb: 3
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0008, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0021, Cont: 4.8442, MSE: 0.0027, mask_lb: 8, mask_ulb: 8
+[Epoch 57] Avg Loss: 4.7892
+[HEAD1] ACC: 0.5665, NMI: 0.6202, ARI: 0.1053
+[HEAD2] ACC: 0.5670, NMI: 0.6201, ARI: 0.1070
+[Epoch 58] Rampup: 1.0000
+[Batch 0] CE: 0.0016, Cont: 4.5747, MSE: 0.0018, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0001, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0000, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0001, Cont: 4.5747, MSE: 0.0014, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0004, Cont: 5.2933, MSE: 0.0027, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0003, Cont: 3.8917, MSE: 0.0016, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.0000, Cont: 4.8442, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0015, Cont: 4.5747, MSE: 0.0034, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0002, Cont: 3.8917, MSE: 0.0033, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0001, Cont: 5.8201, MSE: 0.0047, mask_lb: 3, mask_ulb: 13
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0002, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Epoch 58] Avg Loss: 4.7690
+[HEAD1] ACC: 0.5665, NMI: 0.6201, ARI: 0.1049
+[HEAD2] ACC: 0.5670, NMI: 0.6208, ARI: 0.1068
+[Epoch 59] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8442, MSE: 0.0035, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0000, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0000, Cont: 5.4848, MSE: 0.0020, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0000, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0002, Cont: 5.6595, MSE: 0.0017, mask_lb: 4, mask_ulb: 12
+[Batch 60] CE: 0.0002, Cont: 4.8442, MSE: 0.0018, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 4.5746, MSE: 0.0015, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0002, Cont: 4.8441, MSE: 0.0025, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0000, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0004, Cont: 4.5747, MSE: 0.0017, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0000, Cont: 4.8442, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0004, Cont: 5.4848, MSE: 0.0021, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0008, Cont: 3.4338, MSE: 0.0022, mask_lb: 12, mask_ulb: 4
+[Epoch 59] Avg Loss: 4.7875
+[HEAD1] ACC: 0.5670, NMI: 0.6193, ARI: 0.1048
+[HEAD2] ACC: 0.5675, NMI: 0.6203, ARI: 0.1067
+[Epoch 60] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 5.2933, MSE: 0.0021, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0006, Cont: 5.4848, MSE: 0.0006, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0007, Cont: 3.8917, MSE: 0.0026, mask_lb: 11, mask_ulb: 5
+[Batch 50] CE: 0.0008, Cont: 5.2933, MSE: 0.0032, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0000, Cont: 4.8441, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0005, Cont: 4.8441, MSE: 0.0027, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0003, Cont: 5.0814, MSE: 0.0020, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 4.8442, MSE: 0.0022, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0005, Cont: 4.5747, MSE: 0.0040, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0002, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Epoch 60] Avg Loss: 4.7741
+[HEAD1] ACC: 0.5665, NMI: 0.6189, ARI: 0.1042
+[HEAD2] ACC: 0.5675, NMI: 0.6197, ARI: 0.1069
+[Epoch 61] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.5747, MSE: 0.0025, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0002, Cont: 4.2626, MSE: 0.0015, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0002, Cont: 4.5747, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0002, Cont: 5.0814, MSE: 0.0026, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0003, Cont: 5.2933, MSE: 0.0026, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0003, Cont: 4.5747, MSE: 0.0025, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0001, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0007, Cont: 5.2933, MSE: 0.0007, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 5.2933, MSE: 0.0017, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0000, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0004, Cont: 5.4848, MSE: 0.0028, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.0005, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 4.8442, MSE: 0.0019, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0009, Cont: 4.5746, MSE: 0.0020, mask_lb: 9, mask_ulb: 7
+[Epoch 61] Avg Loss: 4.7661
+[HEAD1] ACC: 0.5665, NMI: 0.6197, ARI: 0.1050
+[HEAD2] ACC: 0.5670, NMI: 0.6206, ARI: 0.1068
+[Epoch 62] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0000, Cont: 5.4848, MSE: 0.0007, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0003, Cont: 4.8441, MSE: 0.0028, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0002, Cont: 4.5747, MSE: 0.0021, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0005, Cont: 5.6595, MSE: 0.0015, mask_lb: 4, mask_ulb: 12
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0005, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 3.4338, MSE: 0.0007, mask_lb: 12, mask_ulb: 4
+[Batch 80] CE: 0.0000, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 4.5747, MSE: 0.0018, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0003, Cont: 4.5746, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0000, Cont: 5.4848, MSE: 0.0020, mask_lb: 5, mask_ulb: 11
+[Epoch 62] Avg Loss: 4.7784
+[HEAD1] ACC: 0.5670, NMI: 0.6191, ARI: 0.1048
+[HEAD2] ACC: 0.5675, NMI: 0.6201, ARI: 0.1071
+[Epoch 63] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 5.6595, MSE: 0.0012, mask_lb: 4, mask_ulb: 12
+[Batch 10] CE: 0.0007, Cont: 4.5747, MSE: 0.0029, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0003, Cont: 4.8442, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0001, Cont: 5.6595, MSE: 0.0020, mask_lb: 4, mask_ulb: 12
+[Batch 40] CE: 0.0006, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0001, Cont: 5.4848, MSE: 0.0015, mask_lb: 5, mask_ulb: 11
+[Batch 70] CE: 0.0000, Cont: 4.2626, MSE: 0.0005, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0001, Cont: 5.0814, MSE: 0.0028, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 3.4338, MSE: 0.0009, mask_lb: 12, mask_ulb: 4
+[Batch 110] CE: 0.0001, Cont: 3.4338, MSE: 0.0009, mask_lb: 12, mask_ulb: 4
+[Batch 120] CE: 0.0000, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0002, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Epoch 63] Avg Loss: 4.7731
+[HEAD1] ACC: 0.5665, NMI: 0.6195, ARI: 0.1048
+[HEAD2] ACC: 0.5670, NMI: 0.6196, ARI: 0.1066
+[Epoch 64] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0000, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0002, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0002, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0000, Cont: 5.2933, MSE: 0.0004, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0006, Cont: 4.2626, MSE: 0.0024, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.2626, MSE: 0.0023, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 5.4848, MSE: 0.0012, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.0000, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0021, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Batch 124] CE: 0.0000, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Epoch 64] Avg Loss: 4.7876
+[HEAD1] ACC: 0.5670, NMI: 0.6191, ARI: 0.1050
+[HEAD2] ACC: 0.5675, NMI: 0.6200, ARI: 0.1071
+[Epoch 65] Rampup: 1.0000
+[Batch 0] CE: 0.0006, Cont: 5.4848, MSE: 0.0022, mask_lb: 5, mask_ulb: 11
+[Batch 10] CE: 0.0000, Cont: 5.4848, MSE: 0.0024, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0003, Cont: 5.6595, MSE: 0.0019, mask_lb: 4, mask_ulb: 12
+[Batch 30] CE: 0.0002, Cont: 4.2626, MSE: 0.0020, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0001, Cont: 4.8442, MSE: 0.0020, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0001, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0000, Cont: 4.5747, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0000, Cont: 5.0814, MSE: 0.0025, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 4.8442, MSE: 0.0006, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0000, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0001, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Epoch 65] Avg Loss: 4.7824
+[HEAD1] ACC: 0.5665, NMI: 0.6193, ARI: 0.1047
+[HEAD2] ACC: 0.5670, NMI: 0.6196, ARI: 0.1066
+[Epoch 66] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.5746, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0001, Cont: 4.2626, MSE: 0.0017, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0004, Cont: 4.2626, MSE: 0.0018, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0000, Cont: 5.0814, MSE: 0.0010, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0002, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0000, Cont: 5.4848, MSE: 0.0022, mask_lb: 5, mask_ulb: 11
+[Batch 60] CE: 0.0005, Cont: 5.0814, MSE: 0.0010, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0010, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0007, Cont: 5.0814, MSE: 0.0021, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0003, Cont: 4.8441, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0008, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0004, Cont: 4.5747, MSE: 0.0018, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0003, Cont: 4.8441, MSE: 0.0023, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0002, Cont: 4.8442, MSE: 0.0016, mask_lb: 8, mask_ulb: 8
+[Epoch 66] Avg Loss: 4.7859
+[HEAD1] ACC: 0.5665, NMI: 0.6192, ARI: 0.1045
+[HEAD2] ACC: 0.5665, NMI: 0.6193, ARI: 0.1062
+[Epoch 67] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0002, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0001, Cont: 3.8917, MSE: 0.0012, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 0.0004, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0003, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0000, Cont: 4.2626, MSE: 0.0016, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0003, Cont: 5.4848, MSE: 0.0007, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.0001, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 4.5747, MSE: 0.0016, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0004, Cont: 4.8442, MSE: 0.0019, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0004, Cont: 4.8441, MSE: 0.0032, mask_lb: 8, mask_ulb: 8
+[Epoch 67] Avg Loss: 4.7795
+[HEAD1] ACC: 0.5665, NMI: 0.6190, ARI: 0.1045
+[HEAD2] ACC: 0.5670, NMI: 0.6200, ARI: 0.1069
+[Epoch 68] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0001, Cont: 4.8441, MSE: 0.0028, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0001, Cont: 5.0814, MSE: 0.0016, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0005, Cont: 5.4848, MSE: 0.0012, mask_lb: 5, mask_ulb: 11
+[Batch 50] CE: 0.0001, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0002, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0001, Cont: 4.5746, MSE: 0.0014, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0002, Cont: 4.8441, MSE: 0.0031, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0019, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 3.8917, MSE: 0.0011, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0001, Cont: 5.2933, MSE: 0.0023, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.0004, Cont: 5.2933, MSE: 0.0015, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0000, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Epoch 68] Avg Loss: 4.7752
+[HEAD1] ACC: 0.5665, NMI: 0.6188, ARI: 0.1044
+[HEAD2] ACC: 0.5665, NMI: 0.6199, ARI: 0.1065
+[Epoch 69] Rampup: 1.0000
+[Batch 0] CE: 0.0008, Cont: 5.2933, MSE: 0.0030, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0000, Cont: 5.2933, MSE: 0.0025, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0002, Cont: 1.9457, MSE: 0.0004, mask_lb: 14, mask_ulb: 2
+[Batch 30] CE: 0.0000, Cont: 5.4848, MSE: 0.0008, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0000, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0000, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0005, Cont: 4.8441, MSE: 0.0023, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0001, Cont: 4.8441, MSE: 0.0023, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0002, Cont: 3.8917, MSE: 0.0008, mask_lb: 11, mask_ulb: 5
+[Batch 90] CE: 0.0001, Cont: 5.0814, MSE: 0.0003, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0004, Cont: 5.0814, MSE: 0.0004, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.8441, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0001, Cont: 4.2626, MSE: 0.0021, mask_lb: 10, mask_ulb: 6
+[Epoch 69] Avg Loss: 4.7518
+[HEAD1] ACC: 0.5665, NMI: 0.6192, ARI: 0.1047
+[HEAD2] ACC: 0.5670, NMI: 0.6200, ARI: 0.1069
+[Epoch 70] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0000, Cont: 4.5746, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0006, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0001, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0002, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0019, Cont: 4.8441, MSE: 0.0019, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0001, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0002, Cont: 5.2933, MSE: 0.0006, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0000, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0004, Cont: 4.5746, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0002, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Epoch 70] Avg Loss: 4.8011
+[HEAD1] ACC: 0.5665, NMI: 0.6193, ARI: 0.1049
+[HEAD2] ACC: 0.5670, NMI: 0.6200, ARI: 0.1069
+[Epoch 71] Rampup: 1.0000
+[Batch 0] CE: 0.0002, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0000, Cont: 5.0814, MSE: 0.0022, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0000, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0002, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0001, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 60] CE: 0.0007, Cont: 4.8441, MSE: 0.0031, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 5.2933, MSE: 0.0014, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0000, Cont: 4.2626, MSE: 0.0021, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0001, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0000, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0001, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Epoch 71] Avg Loss: 4.7719
+[HEAD1] ACC: 0.5665, NMI: 0.6188, ARI: 0.1044
+[HEAD2] ACC: 0.5675, NMI: 0.6201, ARI: 0.1072
+[Epoch 72] Rampup: 1.0000
+[Batch 0] CE: 0.0011, Cont: 4.5747, MSE: 0.0040, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0000, Cont: 5.4848, MSE: 0.0004, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0000, Cont: 3.4338, MSE: 0.0005, mask_lb: 12, mask_ulb: 4
+[Batch 30] CE: 0.0008, Cont: 5.6595, MSE: 0.0007, mask_lb: 4, mask_ulb: 12
+[Batch 40] CE: 0.0002, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0008, Cont: 5.2933, MSE: 0.0041, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0001, Cont: 4.8441, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0013, Cont: 5.2933, MSE: 0.0015, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0005, Cont: 4.8441, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0009, Cont: 4.2626, MSE: 0.0016, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0001, Cont: 4.8441, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.8442, MSE: 0.0004, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0002, Cont: 4.5746, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Epoch 72] Avg Loss: 4.7643
+[HEAD1] ACC: 0.5665, NMI: 0.6193, ARI: 0.1048
+[HEAD2] ACC: 0.5670, NMI: 0.6200, ARI: 0.1069
+[Epoch 73] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0000, Cont: 5.2933, MSE: 0.0003, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0001, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0000, Cont: 5.4848, MSE: 0.0011, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0000, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0000, Cont: 5.6595, MSE: 0.0009, mask_lb: 4, mask_ulb: 12
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0002, Cont: 4.8442, MSE: 0.0004, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0001, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0002, Cont: 5.4848, MSE: 0.0015, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.0001, Cont: 5.2933, MSE: 0.0005, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0001, Cont: 4.5747, MSE: 0.0018, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 4.8442, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0018, Cont: 5.2933, MSE: 0.0019, mask_lb: 6, mask_ulb: 10
+[Epoch 73] Avg Loss: 4.7636
+[HEAD1] ACC: 0.5665, NMI: 0.6190, ARI: 0.1045
+[HEAD2] ACC: 0.5670, NMI: 0.6200, ARI: 0.1069
+[Epoch 74] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.2626, MSE: 0.0003, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0006, Cont: 4.8441, MSE: 0.0033, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0001, Cont: 4.8442, MSE: 0.0004, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0001, Cont: 5.0814, MSE: 0.0016, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0002, Cont: 5.2933, MSE: 0.0019, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0001, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0000, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0001, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0014, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0003, Cont: 4.8441, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0003, Cont: 4.5746, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0006, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Epoch 74] Avg Loss: 4.7645
+[HEAD1] ACC: 0.5665, NMI: 0.6192, ARI: 0.1048
+[HEAD2] ACC: 0.5670, NMI: 0.6203, ARI: 0.1066
+[Epoch 75] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.2626, MSE: 0.0003, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0010, Cont: 4.5747, MSE: 0.0017, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0000, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0001, Cont: 4.2626, MSE: 0.0005, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0000, Cont: 5.4848, MSE: 0.0007, mask_lb: 5, mask_ulb: 11
+[Batch 80] CE: 0.0000, Cont: 5.4848, MSE: 0.0012, mask_lb: 5, mask_ulb: 11
+[Batch 90] CE: 0.0000, Cont: 4.8442, MSE: 0.0016, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0003, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0010, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Epoch 75] Avg Loss: 4.7676
+[HEAD1] ACC: 0.5665, NMI: 0.6191, ARI: 0.1048
+[HEAD2] ACC: 0.5675, NMI: 0.6206, ARI: 0.1070
+[Epoch 76] Rampup: 1.0000
+[Batch 0] CE: 0.0002, Cont: 3.8917, MSE: 0.0007, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0000, Cont: 4.8441, MSE: 0.0006, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0010, Cont: 4.8441, MSE: 0.0024, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 5.4848, MSE: 0.0031, mask_lb: 5, mask_ulb: 11
+[Batch 40] CE: 0.0000, Cont: 4.2626, MSE: 0.0011, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0003, Cont: 3.8917, MSE: 0.0002, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.0005, Cont: 4.8441, MSE: 0.0026, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0001, Cont: 5.2933, MSE: 0.0015, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0003, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 4.5746, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0002, Cont: 5.0814, MSE: 0.0023, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0003, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Epoch 76] Avg Loss: 4.7726
+[HEAD1] ACC: 0.5665, NMI: 0.6193, ARI: 0.1049
+[HEAD2] ACC: 0.5680, NMI: 0.6206, ARI: 0.1073
+[Epoch 77] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0000, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0000, Cont: 5.4848, MSE: 0.0010, mask_lb: 5, mask_ulb: 11
+[Batch 30] CE: 0.0002, Cont: 3.8917, MSE: 0.0011, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 0.0005, Cont: 4.8441, MSE: 0.0026, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0001, Cont: 3.8917, MSE: 0.0009, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.0001, Cont: 4.8441, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 5.4848, MSE: 0.0014, mask_lb: 5, mask_ulb: 11
+[Batch 80] CE: 0.0001, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0000, Cont: 4.5747, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0000, Cont: 3.8917, MSE: 0.0003, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0001, Cont: 5.4848, MSE: 0.0027, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0014, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0003, Cont: 4.8441, MSE: 0.0013, mask_lb: 8, mask_ulb: 8
+[Epoch 77] Avg Loss: 4.7882
+[HEAD1] ACC: 0.5665, NMI: 0.6192, ARI: 0.1048
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 78] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0004, Cont: 5.2933, MSE: 0.0007, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0000, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0001, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0004, Cont: 4.8442, MSE: 0.0013, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0002, Cont: 3.4338, MSE: 0.0021, mask_lb: 12, mask_ulb: 4
+[Batch 60] CE: 0.0001, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0000, Cont: 5.8201, MSE: 0.0017, mask_lb: 3, mask_ulb: 13
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0014, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0001, Cont: 4.5747, MSE: 0.0015, mask_lb: 9, mask_ulb: 7
+[Epoch 78] Avg Loss: 4.7663
+[HEAD1] ACC: 0.5665, NMI: 0.6191, ARI: 0.1047
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 79] Rampup: 1.0000
+[Batch 0] CE: 0.0002, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0013, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0006, Cont: 4.8442, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0003, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0002, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0004, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0001, Cont: 4.5747, MSE: 0.0000, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0020, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0020, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0008, Cont: 5.8201, MSE: 0.0007, mask_lb: 3, mask_ulb: 13
+[Batch 124] CE: 0.0001, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Epoch 79] Avg Loss: 4.7790
+[HEAD1] ACC: 0.5660, NMI: 0.6190, ARI: 0.1043
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 80] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0002, Cont: 5.4848, MSE: 0.0021, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0000, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0003, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0000, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 4.8441, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0002, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0001, Cont: 5.4848, MSE: 0.0019, mask_lb: 5, mask_ulb: 11
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 3.8918, MSE: 0.0006, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0001, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 120] CE: 0.0002, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0001, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Epoch 80] Avg Loss: 4.7934
+[HEAD1] ACC: 0.5665, NMI: 0.6193, ARI: 0.1048
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 81] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0013, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0003, Cont: 5.2933, MSE: 0.0005, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0007, Cont: 5.0814, MSE: 0.0025, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0001, Cont: 5.0814, MSE: 0.0022, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0001, Cont: 4.8441, MSE: 0.0020, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0006, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0004, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 3.4339, MSE: 0.0009, mask_lb: 12, mask_ulb: 4
+[Batch 100] CE: 0.0001, Cont: 5.4848, MSE: 0.0020, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.0001, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0006, Cont: 5.0814, MSE: 0.0016, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0000, Cont: 4.8441, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Epoch 81] Avg Loss: 4.7762
+[HEAD1] ACC: 0.5665, NMI: 0.6189, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6204, ARI: 0.1069
+[Epoch 82] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0010, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0000, Cont: 5.0814, MSE: 0.0015, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0001, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0000, Cont: 4.8442, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0000, Cont: 3.8917, MSE: 0.0003, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.0002, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0000, Cont: 5.6595, MSE: 0.0008, mask_lb: 4, mask_ulb: 12
+[Batch 80] CE: 0.0001, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 5.2933, MSE: 0.0019, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0000, Cont: 5.4848, MSE: 0.0007, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.0000, Cont: 3.8917, MSE: 0.0006, mask_lb: 11, mask_ulb: 5
+[Batch 120] CE: 0.0000, Cont: 4.8441, MSE: 0.0019, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0006, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Epoch 82] Avg Loss: 4.7836
+[HEAD1] ACC: 0.5665, NMI: 0.6191, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6204, ARI: 0.1069
+[Epoch 83] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.2626, MSE: 0.0018, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0002, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0000, Cont: 3.4338, MSE: 0.0003, mask_lb: 12, mask_ulb: 4
+[Batch 30] CE: 0.0001, Cont: 4.2626, MSE: 0.0005, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0007, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 4.8441, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0005, Cont: 4.8442, MSE: 0.0029, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0001, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0000, Cont: 5.4848, MSE: 0.0012, mask_lb: 5, mask_ulb: 11
+[Batch 90] CE: 0.0001, Cont: 5.0814, MSE: 0.0014, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 4.2626, MSE: 0.0001, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0004, Cont: 4.5747, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0005, Cont: 5.2933, MSE: 0.0007, mask_lb: 6, mask_ulb: 10
+[Epoch 83] Avg Loss: 4.7672
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 84] Rampup: 1.0000
+[Batch 0] CE: 0.0012, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0002, Cont: 3.8917, MSE: 0.0008, mask_lb: 11, mask_ulb: 5
+[Batch 20] CE: 0.0002, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0001, Cont: 4.8441, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0006, Cont: 3.8917, MSE: 0.0011, mask_lb: 11, mask_ulb: 5
+[Batch 50] CE: 0.0000, Cont: 4.8442, MSE: 0.0014, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0001, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0003, Cont: 4.8441, MSE: 0.0022, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0000, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 4.8442, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0001, Cont: 4.8441, MSE: 0.0017, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0000, Cont: 4.8441, MSE: 0.0024, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0002, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Epoch 84] Avg Loss: 4.7625
+[HEAD1] ACC: 0.5660, NMI: 0.6190, ARI: 0.1045
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 85] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 5.0814, MSE: 0.0016, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0002, Cont: 4.5747, MSE: 0.0026, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0005, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0001, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0002, Cont: 3.4339, MSE: 0.0001, mask_lb: 12, mask_ulb: 4
+[Batch 50] CE: 0.0001, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0000, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 70] CE: 0.0000, Cont: 3.8917, MSE: 0.0004, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.0000, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0010, Cont: 5.0814, MSE: 0.0014, mask_lb: 7, mask_ulb: 9
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0015, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.8441, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0000, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Epoch 85] Avg Loss: 4.7835
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 86] Rampup: 1.0000
+[Batch 0] CE: 0.0004, Cont: 4.8441, MSE: 0.0031, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.2626, MSE: 0.0025, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0003, Cont: 4.8441, MSE: 0.0020, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0006, Cont: 3.8917, MSE: 0.0031, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 0.0002, Cont: 3.8917, MSE: 0.0017, mask_lb: 11, mask_ulb: 5
+[Batch 50] CE: 0.0000, Cont: 4.2626, MSE: 0.0005, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0001, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0002, Cont: 5.0814, MSE: 0.0002, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0004, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0002, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0001, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 5.2933, MSE: 0.0011, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0003, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Epoch 86] Avg Loss: 4.7798
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 87] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 3.8917, MSE: 0.0004, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0001, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0006, Cont: 4.2626, MSE: 0.0024, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0001, Cont: 5.6595, MSE: 0.0011, mask_lb: 4, mask_ulb: 12
+[Batch 40] CE: 0.0000, Cont: 5.2933, MSE: 0.0006, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0000, Cont: 4.8442, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0000, Cont: 4.8442, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0001, Cont: 5.0814, MSE: 0.0016, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 5.4848, MSE: 0.0005, mask_lb: 5, mask_ulb: 11
+[Batch 100] CE: 0.0002, Cont: 3.8917, MSE: 0.0008, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0003, Cont: 4.5747, MSE: 0.0021, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0002, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0002, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Epoch 87] Avg Loss: 4.7758
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 88] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0000, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0000, Cont: 4.8442, MSE: 0.0023, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0003, Cont: 4.5747, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0002, Cont: 4.5747, MSE: 0.0019, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0003, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0001, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0000, Cont: 4.5747, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 4.5747, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0012, Cont: 5.9687, MSE: 0.0011, mask_lb: 2, mask_ulb: 14
+[Batch 120] CE: 0.0003, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0003, Cont: 4.2626, MSE: 0.0001, mask_lb: 10, mask_ulb: 6
+[Epoch 88] Avg Loss: 4.7882
+[HEAD1] ACC: 0.5660, NMI: 0.6192, ARI: 0.1045
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 89] Rampup: 1.0000
+[Batch 0] CE: 0.0008, Cont: 5.2933, MSE: 0.0014, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0000, Cont: 4.8442, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0000, Cont: 4.8441, MSE: 0.0013, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 4.5747, MSE: 0.0002, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0000, Cont: 4.2626, MSE: 0.0011, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0001, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0001, Cont: 5.6595, MSE: 0.0009, mask_lb: 4, mask_ulb: 12
+[Batch 70] CE: 0.0000, Cont: 3.8917, MSE: 0.0000, mask_lb: 11, mask_ulb: 5
+[Batch 80] CE: 0.0001, Cont: 5.4848, MSE: 0.0007, mask_lb: 5, mask_ulb: 11
+[Batch 90] CE: 0.0001, Cont: 5.0814, MSE: 0.0021, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0001, Cont: 4.5747, MSE: 0.0012, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 5.6595, MSE: 0.0007, mask_lb: 4, mask_ulb: 12
+[Batch 124] CE: 0.0006, Cont: 5.0814, MSE: 0.0017, mask_lb: 7, mask_ulb: 9
+[Epoch 89] Avg Loss: 4.7623
+[HEAD1] ACC: 0.5660, NMI: 0.6194, ARI: 0.1047
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1065
+[Epoch 90] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 3.8917, MSE: 0.0016, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0000, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0000, Cont: 5.2933, MSE: 0.0019, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0002, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0008, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.2626, MSE: 0.0004, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0002, Cont: 4.2626, MSE: 0.0008, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0001, Cont: 4.8442, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 100] CE: 0.0005, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0006, Cont: 4.8441, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0002, Cont: 4.8441, MSE: 0.0007, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0000, Cont: 5.6595, MSE: 0.0015, mask_lb: 4, mask_ulb: 12
+[Epoch 90] Avg Loss: 4.7816
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 91] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.8441, MSE: 0.0012, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.2626, MSE: 0.0003, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0000, Cont: 4.2626, MSE: 0.0005, mask_lb: 10, mask_ulb: 6
+[Batch 30] CE: 0.0000, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0006, Cont: 5.8201, MSE: 0.0009, mask_lb: 3, mask_ulb: 13
+[Batch 50] CE: 0.0003, Cont: 5.2933, MSE: 0.0013, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0000, Cont: 4.2626, MSE: 0.0010, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0003, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0000, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 4.5747, MSE: 0.0010, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0004, Cont: 5.4848, MSE: 0.0027, mask_lb: 5, mask_ulb: 11
+[Batch 120] CE: 0.0002, Cont: 4.8441, MSE: 0.0020, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0000, Cont: 4.8441, MSE: 0.0011, mask_lb: 8, mask_ulb: 8
+[Epoch 91] Avg Loss: 4.7901
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 92] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.6595, MSE: 0.0008, mask_lb: 4, mask_ulb: 12
+[Batch 10] CE: 0.0000, Cont: 5.2933, MSE: 0.0014, mask_lb: 6, mask_ulb: 10
+[Batch 20] CE: 0.0000, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0000, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0011, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0001, Cont: 5.4848, MSE: 0.0015, mask_lb: 5, mask_ulb: 11
+[Batch 70] CE: 0.0001, Cont: 5.2933, MSE: 0.0017, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0003, Cont: 3.4338, MSE: 0.0001, mask_lb: 12, mask_ulb: 4
+[Batch 90] CE: 0.0002, Cont: 4.2626, MSE: 0.0011, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0003, Cont: 5.4848, MSE: 0.0020, mask_lb: 5, mask_ulb: 11
+[Batch 110] CE: 0.0002, Cont: 4.8442, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0000, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0001, Cont: 2.8329, MSE: 0.0005, mask_lb: 13, mask_ulb: 3
+[Epoch 92] Avg Loss: 4.7774
+[HEAD1] ACC: 0.5660, NMI: 0.6194, ARI: 0.1047
+[HEAD2] ACC: 0.5675, NMI: 0.6205, ARI: 0.1070
+[Epoch 93] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 5.2933, MSE: 0.0006, mask_lb: 6, mask_ulb: 10
+[Batch 10] CE: 0.0006, Cont: 4.2626, MSE: 0.0013, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0001, Cont: 4.8441, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0003, Cont: 3.4338, MSE: 0.0003, mask_lb: 12, mask_ulb: 4
+[Batch 40] CE: 0.0000, Cont: 4.2626, MSE: 0.0002, mask_lb: 10, mask_ulb: 6
+[Batch 50] CE: 0.0003, Cont: 3.8917, MSE: 0.0011, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.0001, Cont: 4.8441, MSE: 0.0023, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 80] CE: 0.0000, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 90] CE: 0.0001, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 100] CE: 0.0000, Cont: 5.8201, MSE: 0.0013, mask_lb: 3, mask_ulb: 13
+[Batch 110] CE: 0.0001, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0000, Cont: 4.8442, MSE: 0.0009, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0000, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Epoch 93] Avg Loss: 4.7833
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 94] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.4848, MSE: 0.0005, mask_lb: 5, mask_ulb: 11
+[Batch 10] CE: 0.0001, Cont: 4.8441, MSE: 0.0003, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Batch 30] CE: 0.0000, Cont: 5.2933, MSE: 0.0017, mask_lb: 6, mask_ulb: 10
+[Batch 40] CE: 0.0000, Cont: 4.8441, MSE: 0.0004, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0001, Cont: 4.8441, MSE: 0.0006, mask_lb: 8, mask_ulb: 8
+[Batch 60] CE: 0.0011, Cont: 5.2933, MSE: 0.0014, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0002, Cont: 5.0814, MSE: 0.0011, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0001, Cont: 4.2626, MSE: 0.0007, mask_lb: 10, mask_ulb: 6
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0022, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 4.8441, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 124] CE: 0.0005, Cont: 5.0814, MSE: 0.0018, mask_lb: 7, mask_ulb: 9
+[Epoch 94] Avg Loss: 4.7769
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 95] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 4.5747, MSE: 0.0008, mask_lb: 9, mask_ulb: 7
+[Batch 10] CE: 0.0005, Cont: 4.2626, MSE: 0.0011, mask_lb: 10, mask_ulb: 6
+[Batch 20] CE: 0.0000, Cont: 5.2933, MSE: 0.0009, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0004, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 40] CE: 0.0003, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Batch 50] CE: 0.0001, Cont: 4.2626, MSE: 0.0006, mask_lb: 10, mask_ulb: 6
+[Batch 60] CE: 0.0000, Cont: 5.0814, MSE: 0.0004, mask_lb: 7, mask_ulb: 9
+[Batch 70] CE: 0.0004, Cont: 3.4338, MSE: 0.0006, mask_lb: 12, mask_ulb: 4
+[Batch 80] CE: 0.0006, Cont: 5.2933, MSE: 0.0020, mask_lb: 6, mask_ulb: 10
+[Batch 90] CE: 0.0004, Cont: 5.0814, MSE: 0.0015, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 3.8917, MSE: 0.0005, mask_lb: 11, mask_ulb: 5
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0002, Cont: 5.0814, MSE: 0.0013, mask_lb: 7, mask_ulb: 9
+[Batch 124] CE: 0.0004, Cont: 3.4339, MSE: 0.0013, mask_lb: 12, mask_ulb: 4
+[Epoch 95] Avg Loss: 4.7833
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 96] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 10] CE: 0.0003, Cont: 4.8442, MSE: 0.0022, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0001, Cont: 4.8441, MSE: 0.0004, mask_lb: 8, mask_ulb: 8
+[Batch 30] CE: 0.0000, Cont: 5.6595, MSE: 0.0006, mask_lb: 4, mask_ulb: 12
+[Batch 40] CE: 0.0002, Cont: 4.8442, MSE: 0.0005, mask_lb: 8, mask_ulb: 8
+[Batch 50] CE: 0.0000, Cont: 4.5747, MSE: 0.0006, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0002, Cont: 4.5746, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 70] CE: 0.0000, Cont: 5.6595, MSE: 0.0014, mask_lb: 4, mask_ulb: 12
+[Batch 80] CE: 0.0004, Cont: 4.5747, MSE: 0.0017, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0001, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0009, Cont: 4.8441, MSE: 0.0016, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 4.8441, MSE: 0.0015, mask_lb: 8, mask_ulb: 8
+[Batch 120] CE: 0.0000, Cont: 5.4848, MSE: 0.0003, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0004, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Epoch 96] Avg Loss: 4.7789
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 97] Rampup: 1.0000
+[Batch 0] CE: 0.0003, Cont: 4.2626, MSE: 0.0009, mask_lb: 10, mask_ulb: 6
+[Batch 10] CE: 0.0005, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Batch 20] CE: 0.0004, Cont: 5.2933, MSE: 0.0003, mask_lb: 6, mask_ulb: 10
+[Batch 30] CE: 0.0004, Cont: 5.0814, MSE: 0.0012, mask_lb: 7, mask_ulb: 9
+[Batch 40] CE: 0.0004, Cont: 5.0814, MSE: 0.0020, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0000, Cont: 5.2933, MSE: 0.0026, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0003, Cont: 4.8441, MSE: 0.0010, mask_lb: 8, mask_ulb: 8
+[Batch 70] CE: 0.0000, Cont: 4.8441, MSE: 0.0008, mask_lb: 8, mask_ulb: 8
+[Batch 80] CE: 0.0001, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0001, Cont: 5.0814, MSE: 0.0004, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0000, Cont: 4.8441, MSE: 0.0002, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 4.2626, MSE: 0.0021, mask_lb: 10, mask_ulb: 6
+[Batch 120] CE: 0.0000, Cont: 4.5747, MSE: 0.0001, mask_lb: 9, mask_ulb: 7
+[Batch 124] CE: 0.0000, Cont: 4.5747, MSE: 0.0004, mask_lb: 9, mask_ulb: 7
+[Epoch 97] Avg Loss: 4.7769
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 98] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 4.8441, MSE: 0.0002, mask_lb: 8, mask_ulb: 8
+[Batch 10] CE: 0.0000, Cont: 4.5747, MSE: 0.0003, mask_lb: 9, mask_ulb: 7
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0013, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0000, Cont: 4.5747, MSE: 0.0016, mask_lb: 9, mask_ulb: 7
+[Batch 40] CE: 0.0000, Cont: 5.0814, MSE: 0.0005, mask_lb: 7, mask_ulb: 9
+[Batch 50] CE: 0.0000, Cont: 3.8917, MSE: 0.0002, mask_lb: 11, mask_ulb: 5
+[Batch 60] CE: 0.0000, Cont: 3.8917, MSE: 0.0006, mask_lb: 11, mask_ulb: 5
+[Batch 70] CE: 0.0000, Cont: 5.2933, MSE: 0.0002, mask_lb: 6, mask_ulb: 10
+[Batch 80] CE: 0.0000, Cont: 5.0814, MSE: 0.0010, mask_lb: 7, mask_ulb: 9
+[Batch 90] CE: 0.0000, Cont: 5.2933, MSE: 0.0006, mask_lb: 6, mask_ulb: 10
+[Batch 100] CE: 0.0003, Cont: 5.2933, MSE: 0.0012, mask_lb: 6, mask_ulb: 10
+[Batch 110] CE: 0.0004, Cont: 4.5747, MSE: 0.0014, mask_lb: 9, mask_ulb: 7
+[Batch 120] CE: 0.0000, Cont: 5.9687, MSE: 0.0012, mask_lb: 2, mask_ulb: 14
+[Batch 124] CE: 0.0001, Cont: 5.0814, MSE: 0.0007, mask_lb: 7, mask_ulb: 9
+[Epoch 98] Avg Loss: 4.7864
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 99] Rampup: 1.0000
+[Batch 0] CE: 0.0000, Cont: 3.8917, MSE: 0.0013, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0004, Cont: 4.8442, MSE: 0.0006, mask_lb: 8, mask_ulb: 8
+[Batch 20] CE: 0.0001, Cont: 4.5747, MSE: 0.0005, mask_lb: 9, mask_ulb: 7
+[Batch 30] CE: 0.0003, Cont: 4.2626, MSE: 0.0012, mask_lb: 10, mask_ulb: 6
+[Batch 40] CE: 0.0001, Cont: 5.6595, MSE: 0.0014, mask_lb: 4, mask_ulb: 12
+[Batch 50] CE: 0.0004, Cont: 4.5746, MSE: 0.0025, mask_lb: 9, mask_ulb: 7
+[Batch 60] CE: 0.0000, Cont: 5.4848, MSE: 0.0019, mask_lb: 5, mask_ulb: 11
+[Batch 70] CE: 0.0000, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 80] CE: 0.0006, Cont: 4.5747, MSE: 0.0009, mask_lb: 9, mask_ulb: 7
+[Batch 90] CE: 0.0000, Cont: 4.5747, MSE: 0.0007, mask_lb: 9, mask_ulb: 7
+[Batch 100] CE: 0.0005, Cont: 4.8442, MSE: 0.0013, mask_lb: 8, mask_ulb: 8
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0000, Cont: 5.2933, MSE: 0.0010, mask_lb: 6, mask_ulb: 10
+[Batch 124] CE: 0.0000, Cont: 5.0814, MSE: 0.0009, mask_lb: 7, mask_ulb: 9
+[Epoch 99] Avg Loss: 4.7723
+[HEAD1] ACC: 0.5660, NMI: 0.6193, ARI: 0.1046
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+[Epoch 100] Rampup: 1.0000
+[Batch 0] CE: 0.0001, Cont: 3.8917, MSE: 0.0010, mask_lb: 11, mask_ulb: 5
+[Batch 10] CE: 0.0000, Cont: 5.4848, MSE: 0.0025, mask_lb: 5, mask_ulb: 11
+[Batch 20] CE: 0.0000, Cont: 5.6595, MSE: 0.0002, mask_lb: 4, mask_ulb: 12
+[Batch 30] CE: 0.0000, Cont: 3.8917, MSE: 0.0014, mask_lb: 11, mask_ulb: 5
+[Batch 40] CE: 0.0003, Cont: 3.4338, MSE: 0.0015, mask_lb: 12, mask_ulb: 4
+[Batch 50] CE: 0.0000, Cont: 5.2933, MSE: 0.0005, mask_lb: 6, mask_ulb: 10
+[Batch 60] CE: 0.0000, Cont: 5.2933, MSE: 0.0003, mask_lb: 6, mask_ulb: 10
+[Batch 70] CE: 0.0001, Cont: 4.2626, MSE: 0.0014, mask_lb: 10, mask_ulb: 6
+[Batch 80] CE: 0.0002, Cont: 4.2626, MSE: 0.0011, mask_lb: 10, mask_ulb: 6
+[Batch 90] CE: 0.0002, Cont: 5.0814, MSE: 0.0008, mask_lb: 7, mask_ulb: 9
+[Batch 100] CE: 0.0002, Cont: 4.5747, MSE: 0.0002, mask_lb: 9, mask_ulb: 7
+[Batch 110] CE: 0.0000, Cont: 5.0814, MSE: 0.0004, mask_lb: 7, mask_ulb: 9
+[Batch 120] CE: 0.0001, Cont: 5.4848, MSE: 0.0008, mask_lb: 5, mask_ulb: 11
+[Batch 124] CE: 0.0000, Cont: 5.0814, MSE: 0.0006, mask_lb: 7, mask_ulb: 9
+[Epoch 100] Avg Loss: 4.7620
+[HEAD1] ACC: 0.5665, NMI: 0.6195, ARI: 0.1050
+[HEAD2] ACC: 0.5670, NMI: 0.6202, ARI: 0.1066
+NCD model saved to /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/novel_discovery/resnet_esc50_joint_saltpepper_005.pth
+==============================================================================
+Running epilogue script on pink51.
+
+Submit time  : 2025-04-12T18:17:21
+Start time   : 2025-04-12T19:07:36
+End time     : 2025-04-12T19:59:16
+Elapsed time : 00:51:40 (Timelimit=12:00:00)
+
+Job ID: 7289027
+Array Job ID: 7288951_5
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 01:55:30
+CPU Efficiency: 27.94% of 06:53:20 core-walltime
+Job Wall-clock time: 00:51:40
+Memory Utilized: 8.24 GB
+Memory Efficiency: 0.00% of 16.00 B
+

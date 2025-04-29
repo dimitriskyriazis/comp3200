@@ -1,0 +1,231 @@
+Running SLURM prolog script on pink52.cluster.local
+===============================================================================
+Job started on Wed Mar  5 18:38:11 GMT 2025
+Job ID          : 7139753
+Job name        : plm_c10_pair_04
+WorkDir         : /mainfs/scratch/dk2g21/PLM
+Command         : /mainfs/scratch/dk2g21/PLM/plm_ncd.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 8
+Num of tasks    : 1
+Hosts allocated : pink52
+Job Output Follows ...
+===============================================================================
+Wed Mar  5 18:38:14 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce GTX 1080 Ti     Off | 00000000:02:00.0 Off |                  N/A |
+| 23%   28C    P8               8W / 250W |      0MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce GTX 1080 Ti     Off | 00000000:03:00.0 Off |                  N/A |
+| 23%   25C    P8               7W / 250W |      0MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Starting main function...
+Patching CIFAR-10 raw data...
+Running in NCD Mode: Splitting CIFAR-10 into known and novel classes.
+Dataset loaded successfully!
+Generating noise labels...
+[[0.6 0.4 0.  0.  0. ]
+ [0.  0.6 0.4 0.  0. ]
+ [0.  0.  0.6 0.4 0. ]
+ [0.  0.  0.  0.6 0.4]
+ [0.4 0.  0.  0.  0.6]]
+0.60144
+Generated noise_labels shape: 25000 (Expected: 25000)
+----------------Labeling----------------
+Size of ordinary_train_dataset: 25000
+Size of noise_labels: 25000
+Filtering training dataset for known classes in prenp.
+Starting prenp training for candidate labeling...
+Prenp Epoch 0 complete. Avg Loss = 1.0237
+Prenp Epoch 1 complete. Avg Loss = 0.7407
+Prenp Epoch 2 complete. Avg Loss = 0.5714
+Prenp Epoch 3 complete. Avg Loss = 0.4746
+Prenp Epoch 4 complete. Avg Loss = 0.4125
+Prenp Epoch 5 complete. Avg Loss = 0.3689
+Prenp Epoch 6 complete. Avg Loss = 0.3293
+Prenp Epoch 7 complete. Avg Loss = 0.3133
+Prenp Epoch 8 complete. Avg Loss = 0.2889
+Prenp Epoch 9 complete. Avg Loss = 0.2685
+Prenp Epoch 10 complete. Avg Loss = 0.2558
+Prenp Epoch 11 complete. Avg Loss = 0.2395
+Prenp Epoch 12 complete. Avg Loss = 0.2252
+Prenp Epoch 13 complete. Avg Loss = 0.2271
+Prenp Epoch 14 complete. Avg Loss = 0.2149
+Prenp Epoch 15 complete. Avg Loss = 0.2127
+Prenp Epoch 16 complete. Avg Loss = 0.2089
+Prenp Epoch 17 complete. Avg Loss = 0.2087
+Prenp Epoch 18 complete. Avg Loss = 0.1986
+Prenp Epoch 19 complete. Avg Loss = 0.1949
+Prenp Epoch 20 complete. Avg Loss = 0.1876
+Prenp Epoch 21 complete. Avg Loss = 0.1862
+Prenp Epoch 22 complete. Avg Loss = 0.1822
+Prenp Epoch 23 complete. Avg Loss = 0.1931
+Prenp Epoch 24 complete. Avg Loss = 0.1769
+Prenp Epoch 25 complete. Avg Loss = 0.1769
+Prenp Epoch 26 complete. Avg Loss = 0.1732
+Prenp Epoch 27 complete. Avg Loss = 0.1710
+Prenp Epoch 28 complete. Avg Loss = 0.1771
+Prenp Epoch 29 complete. Avg Loss = 0.1688
+Prenp Epoch 30 complete. Avg Loss = 0.1682
+Prenp Epoch 31 complete. Avg Loss = 0.1639
+Prenp Epoch 32 complete. Avg Loss = 0.1627
+Prenp Epoch 33 complete. Avg Loss = 0.1747
+Prenp Epoch 34 complete. Avg Loss = 0.1584
+Prenp Epoch 35 complete. Avg Loss = 0.1602
+Prenp Epoch 36 complete. Avg Loss = 0.1713
+Prenp Epoch 37 complete. Avg Loss = 0.1625
+Prenp Epoch 38 complete. Avg Loss = 0.1537
+Prenp Epoch 39 complete. Avg Loss = 0.1695
+Prenp Epoch 40 complete. Avg Loss = 0.1596
+Prenp Epoch 41 complete. Avg Loss = 0.1539
+Prenp Epoch 42 complete. Avg Loss = 0.1663
+Prenp Epoch 43 complete. Avg Loss = 0.1559
+Prenp Epoch 44 complete. Avg Loss = 0.1562
+Prenp Epoch 45 complete. Avg Loss = 0.1601
+Prenp Epoch 46 complete. Avg Loss = 0.1557
+Prenp Epoch 47 complete. Avg Loss = 0.1587
+Prenp Epoch 48 complete. Avg Loss = 0.1571
+Prenp Epoch 49 complete. Avg Loss = 0.1509
+Prenp Epoch 50 complete. Avg Loss = 0.1553
+Prenp Epoch 51 complete. Avg Loss = 0.1449
+Prenp Epoch 52 complete. Avg Loss = 0.1670
+Prenp Epoch 53 complete. Avg Loss = 0.1457
+Prenp Epoch 54 complete. Avg Loss = 0.1532
+Prenp Epoch 55 complete. Avg Loss = 0.1485
+Prenp Epoch 56 complete. Avg Loss = 0.1537
+Prenp Epoch 57 complete. Avg Loss = 0.1563
+Prenp Epoch 58 complete. Avg Loss = 0.1382
+Prenp Epoch 59 complete. Avg Loss = 0.1665
+Prenp Epoch 60 complete. Avg Loss = 0.1414
+Prenp Epoch 61 complete. Avg Loss = 0.1593
+Prenp Epoch 62 complete. Avg Loss = 0.1492
+Prenp Epoch 63 complete. Avg Loss = 0.1494
+Prenp Epoch 64 complete. Avg Loss = 0.1555
+Prenp Epoch 65 complete. Avg Loss = 0.1555
+Prenp Epoch 66 complete. Avg Loss = 0.1555
+Prenp Epoch 67 complete. Avg Loss = 0.1495
+Prenp Epoch 68 complete. Avg Loss = 0.1500
+Prenp Epoch 69 complete. Avg Loss = 0.1468
+Prenp Epoch 70 complete. Avg Loss = 0.1510
+Prenp Epoch 71 complete. Avg Loss = 0.1528
+Prenp Epoch 72 complete. Avg Loss = 0.1602
+Prenp Epoch 73 complete. Avg Loss = 0.1479
+Prenp Epoch 74 complete. Avg Loss = 0.1506
+Prenp Epoch 75 complete. Avg Loss = 0.1463
+Prenp Epoch 76 complete. Avg Loss = 0.1515
+Prenp Epoch 77 complete. Avg Loss = 0.1528
+Prenp Epoch 78 complete. Avg Loss = 0.1602
+Prenp Epoch 79 complete. Avg Loss = 0.1473
+Prenp Epoch 80 complete. Avg Loss = 0.1473
+Prenp Epoch 81 complete. Avg Loss = 0.1451
+Prenp Epoch 82 complete. Avg Loss = 0.1562
+Prenp Epoch 83 complete. Avg Loss = 0.1431
+Prenp Epoch 84 complete. Avg Loss = 0.1533
+Prenp Epoch 85 complete. Avg Loss = 0.1541
+Prenp Epoch 86 complete. Avg Loss = 0.1489
+Prenp Epoch 87 complete. Avg Loss = 0.1582
+Prenp Epoch 88 complete. Avg Loss = 0.1409
+Prenp Epoch 89 complete. Avg Loss = 0.1468
+Prenp Epoch 90 complete. Avg Loss = 0.1543
+Prenp Epoch 91 complete. Avg Loss = 0.1432
+Prenp Epoch 92 complete. Avg Loss = 0.1478
+Prenp Epoch 93 complete. Avg Loss = 0.1558
+Prenp Epoch 94 complete. Avg Loss = 0.1363
+Prenp Epoch 95 complete. Avg Loss = 0.1472
+Prenp Epoch 96 complete. Avg Loss = 0.1543
+Prenp Epoch 97 complete. Avg Loss = 0.1458
+Prenp Epoch 98 complete. Avg Loss = 0.1575
+Prenp Epoch 99 complete. Avg Loss = 0.1424
+Prenp training complete.
+Candidate labels and pre-trained model saved.
+multi_labels.npy exists. Loading...
+Loaded train_candidate_labels shape: (25000, 5)
+Number of fully zero rows in train_candidate_labels: 0
+Unique values in train_candidate_labels: [0 1]
+Number of zero rows: 0
+raw_dataset.targets shape: (25000,)
+Initializing model...
+Model initialized!
+Starting pre-training...
+Epoch 0: Pre-training complete
+Epoch 1: Pre-training complete
+Epoch 2: Pre-training complete
+Epoch 3: Pre-training complete
+Epoch 4: Pre-training complete
+Epoch 5: Pre-training complete
+Epoch 6: Pre-training complete
+Epoch 7: Pre-training complete
+Epoch 8: Pre-training complete
+Epoch 9: Pre-training complete
+Epoch 10: Pre-training complete
+Epoch 11: Pre-training complete
+Epoch 12: Pre-training complete
+Epoch 13: Pre-training complete
+Epoch 14: Pre-training complete
+Epoch 15: Pre-training complete
+Epoch 16: Pre-training complete
+Epoch 17: Pre-training complete
+Epoch 18: Pre-training complete
+Epoch 19: Pre-training complete
+Epoch 20: Pre-training complete
+Epoch 21: Pre-training complete
+Epoch 22: Pre-training complete
+Epoch 23: Pre-training complete
+Epoch 24: Pre-training complete
+Epoch 25: Pre-training complete
+Epoch 26: Pre-training complete
+Epoch 27: Pre-training complete
+Epoch 28: Pre-training complete
+Epoch 29: Pre-training complete
+Epoch 30: Pre-training complete
+Epoch 31: Pre-training complete
+Epoch 32: Pre-training complete
+Epoch 33: Pre-training complete
+Epoch 34: Pre-training complete
+Epoch 35: Pre-training complete
+Epoch 36: Pre-training complete
+Epoch 37: Pre-training complete
+Epoch 38: Pre-training complete
+Epoch 39: Pre-training complete
+Final Test Accuracy (Known Classes): 0.4872
+Evaluating Novel Class Discovery on novel (test) dataset...
+Extracting features for novel class clustering...
+Applying K-Means clustering with 5 clusters...
+Novel Discovery - NMI: 0.3259, ARI: 0.2442
+==============================================================================
+Running epilogue script on pink52.
+
+Submit time  : 2025-03-05T18:38:11
+Start time   : 2025-03-05T18:38:11
+End time     : 2025-03-05T19:26:27
+Elapsed time : 00:48:16 (Timelimit=08:00:00)
+
+Job ID: 7139753
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 8
+CPU Utilized: 00:58:22
+CPU Efficiency: 15.12% of 06:26:08 core-walltime
+Job Wall-clock time: 00:48:16
+Memory Utilized: 14.44 GB
+Memory Efficiency: 0.00% of 16.00 B
+

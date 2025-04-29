@@ -1,0 +1,36 @@
+Running SLURM prolog script on pink54.cluster.local
+===============================================================================
+Job started on Fri Apr 11 11:32:20 BST 2025
+Job ID          : 7283565
+Job name        : ESC50_Step1_Precompute
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step1.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 16
+Num of tasks    : 1
+Hosts allocated : pink54
+Job Output Follows ...
+===============================================================================
+Generating saltpepper noise for saltpepper_001
+==============================================================================
+Running epilogue script on pink54.
+
+Submit time  : 2025-04-11T11:30:43
+Start time   : 2025-04-11T11:32:20
+End time     : 2025-04-11T11:32:31
+Elapsed time : 00:00:11 (Timelimit=12:00:00)
+
+Job ID: 7283565
+Array Job ID: 7283560_3
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:06
+CPU Efficiency: 3.41% of 00:02:56 core-walltime
+Job Wall-clock time: 00:00:11
+Memory Utilized: 2.55 MB
+Memory Efficiency: 0.00% of 16.00 B
+

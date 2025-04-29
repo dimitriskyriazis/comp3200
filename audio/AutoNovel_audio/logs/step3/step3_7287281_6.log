@@ -1,0 +1,116 @@
+Running SLURM prolog script on pink53.cluster.local
+===============================================================================
+Job started on Sat Apr 12 10:43:16 BST 2025
+Job ID          : 7287281
+Job name        : ESC50_Step3_Supervised
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step3.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 8
+Num of tasks    : 1
+Hosts allocated : pink53
+Job Output Follows ...
+===============================================================================
+Loaded self-supervised weights from /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/selfsupervised_esc50/saltpepper_010/rotnet_esc50_saltpepper_010.pth
+Epoch [1/100] - Loss: 3.5335
+Epoch [2/100] - Loss: 2.8495
+Epoch [3/100] - Loss: 2.3921
+Epoch [4/100] - Loss: 1.9623
+Epoch [5/100] - Loss: 1.7046
+Epoch [6/100] - Loss: 1.5594
+Epoch [7/100] - Loss: 1.4814
+Epoch [8/100] - Loss: 1.3942
+Epoch [9/100] - Loss: 1.2218
+Epoch [10/100] - Loss: 1.0751
+Epoch [11/100] - Loss: 1.1181
+Epoch [12/100] - Loss: 0.9994
+Epoch [13/100] - Loss: 0.8038
+Epoch [14/100] - Loss: 0.7619
+Epoch [15/100] - Loss: 0.6683
+Epoch [16/100] - Loss: 0.7076
+Epoch [17/100] - Loss: 0.6178
+Epoch [18/100] - Loss: 0.5611
+Epoch [19/100] - Loss: 0.4445
+Epoch [20/100] - Loss: 0.4111
+Epoch [21/100] - Loss: 0.3891
+Epoch [22/100] - Loss: 0.3724
+Epoch [23/100] - Loss: 0.4275
+Epoch [24/100] - Loss: 0.4103
+Epoch [25/100] - Loss: 0.3530
+Epoch [26/100] - Loss: 0.2617
+Epoch [27/100] - Loss: 0.1921
+Epoch [28/100] - Loss: 0.1392
+Epoch [29/100] - Loss: 0.1214
+Epoch [30/100] - Loss: 0.1667
+Epoch [31/100] - Loss: 0.1031
+Epoch [32/100] - Loss: 0.0611
+Epoch [33/100] - Loss: 0.0513
+Epoch [34/100] - Loss: 0.0404
+Epoch [35/100] - Loss: 0.0351
+Epoch [36/100] - Loss: 0.0366
+Epoch [37/100] - Loss: 0.0393
+Epoch [38/100] - Loss: 0.0298
+Epoch [39/100] - Loss: 0.0291
+Epoch [40/100] - Loss: 0.0285
+Epoch [41/100] - Loss: 0.0318
+Epoch [42/100] - Loss: 0.0235
+Epoch [43/100] - Loss: 0.0200
+Epoch [44/100] - Loss: 0.0186
+Epoch [45/100] - Loss: 0.0211
+Epoch [46/100] - Loss: 0.0329
+Epoch [47/100] - Loss: 0.0452
+Epoch [48/100] - Loss: 0.0225
+Epoch [49/100] - Loss: 0.0182
+Epoch [50/100] - Loss: 0.0141
+Epoch [51/100] - Loss: 0.0137
+Epoch [52/100] - Loss: 0.0159
+Epoch [53/100] - Loss: 0.0196
+Epoch [54/100] - Loss: 0.0155
+Epoch [55/100] - Loss: 0.0122
+Epoch [56/100] - Loss: 0.0159
+Epoch [57/100] - Loss: 0.0392
+Epoch [58/100] - Loss: 0.0245
+Epoch [59/100] - Loss: 0.0133
+Epoch [60/100] - Loss: 0.0121
+Epoch [61/100] - Loss: 0.0101
+Epoch [62/100] - Loss: 0.0093
+Epoch [63/100] - Loss: 0.0086
+Epoch [64/100] - Loss: 0.0090
+Epoch [65/100] - Loss: 0.0078
+Epoch [66/100] - Loss: 0.0088
+Epoch [67/100] - Loss: 0.0080
+Epoch [68/100] - Loss: 0.0120
+Epoch [69/100] - Loss: 0.0140
+Epoch [70/100] - Loss: 0.0090
+Epoch [71/100] - Loss: 0.0084
+Epoch [72/100] - Loss: 0.0079
+Epoch [73/100] - Loss: 0.0072
+Epoch [74/100] - Loss: 0.0074
+Epoch [75/100] - Loss: 0.0075
+Epoch [76/100] - Loss: 0.0084
+Epoch [77/100] - Loss: 0.0085
+Epoch [78/100] - Loss: 0.0074
+Epoch [79/100] - Loss: 0.0067
+Epoch [80/100] - Loss: 0.0062
+Epoch [81/100] - Loss: 0.0066
+Epoch [82/100] - Loss: 0.0060
+Epoch [83/100] - Loss: 0.0058
+Epoch [84/100] - Loss: 0.0057
+Epoch [85/100] - Loss: 0.0056
+Epoch [86/100] - Loss: 0.0061
+Epoch [87/100] - Loss: 0.0060
+Epoch [88/100] - Loss: 0.0059
+Epoch [89/100] - Loss: 0.0056
+Epoch [90/100] - Loss: 0.0055
+Epoch [91/100] - Loss: 0.0053
+Epoch [92/100] - Loss: 0.0056
+Epoch [93/100] - Loss: 0.0058
+Epoch [94/100] - Loss: 0.0061
+Epoch [95/100] - Loss: 0.0055
+Epoch [96/100] - Loss: 0.0056
+Epoch [97/100] - Loss: 0.0059
+Epoch [98/100] - Loss: 0.0057
+Epoch [99/100] - Loss: 0.0061
+Epoch [100/100] - Loss: 0.0052
+Supervised model saved to /mainfs/scratch/dk2g21/AutoNovel/outputs/esc50/supervised_learning/resnet_esc50_sup_saltpepper_010.pth

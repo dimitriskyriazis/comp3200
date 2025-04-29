@@ -1,0 +1,12 @@
+name: musan_noise_env
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.8
+  - numpy
+  - librosa
+  - pysoundfile
+  - tqdm
+  - pytorch

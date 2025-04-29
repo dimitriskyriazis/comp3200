@@ -1,0 +1,36 @@
+Running SLURM prolog script on pink54.cluster.local
+===============================================================================
+Job started on Fri Apr 11 11:31:57 BST 2025
+Job ID          : 7283564
+Job name        : ESC50_Step1_Precompute
+WorkDir         : /mainfs/scratch/dk2g21/AutoNovel
+Command         : /mainfs/scratch/dk2g21/AutoNovel/step1.slurm
+Partition       : lyceum
+Num hosts       : 1
+Num cores       : 16
+Num of tasks    : 1
+Hosts allocated : pink54
+Job Output Follows ...
+===============================================================================
+Generating gaussian noise for gaussian_30
+==============================================================================
+Running epilogue script on pink54.
+
+Submit time  : 2025-04-11T11:30:43
+Start time   : 2025-04-11T11:31:57
+End time     : 2025-04-11T11:32:10
+Elapsed time : 00:00:13 (Timelimit=12:00:00)
+
+Job ID: 7283564
+Array Job ID: 7283560_2
+Cluster: i5
+User/Group: dk2g21/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:00:09
+CPU Efficiency: 4.33% of 00:03:28 core-walltime
+Job Wall-clock time: 00:00:13
+Memory Utilized: 2.55 MB
+Memory Efficiency: 0.00% of 16.00 B
+

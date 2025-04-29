@@ -1,0 +1,13 @@
+Lmod has detected the following error: Cannot load module "conda/py3-latest"
+because these module(s) are loaded:
+   python
+
+While processing the following module(s):
+    Module fullname   Module Filename
+    ---------------   ---------------
+    conda/py3-latest  /local/modules/apps/conda/py3-latest.lua
+
+Traceback (most recent call last):
+  File "auto_novel.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
